@@ -1,0 +1,18 @@
+{
+  "queries": 5022,
+  "eligible_queries": 1664,
+  "eligible_video_pairs": 11931,
+  "columns": [
+    "base_log",
+    "whole_query",
+    "conjunction",
+    "surplus",
+    "whole_local_contrast",
+    "unconditional_local_excess",
+    "conditional_local_excess",
+    "shared_slope_control"
+  ],
+  "surrogates": 16,
+  "tau": 0.5,
+  "seconds": 36.56390976905823
+}

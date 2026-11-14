@@ -1,0 +1,736 @@
+[
+  {
+    "parser_version": "0.1.0",
+    "parser_model": "en_core_web_sm",
+    "parser_model_version": "3.8.0",
+    "text": "a man standing in a black suit",
+    "query": "a man standing in a black suit",
+    "target_interval": "I0",
+    "entities": [
+      {
+        "id": "e0",
+        "label": "man",
+        "category": "person",
+        "source": {
+          "text": "a man",
+          "start": 0,
+          "end": 5
+        },
+        "head_source": {
+          "text": "man",
+          "start": 2,
+          "end": 5
+        },
+        "is_pronoun": false
+      },
+      {
+        "id": "e1",
+        "label": "suit",
+        "category": "garment",
+        "source": {
+          "text": "a black suit",
+          "start": 18,
+          "end": 30
+        },
+        "head_source": {
+          "text": "suit",
+          "start": 26,
+          "end": 30
+        },
+        "is_pronoun": false
+      }
+    ],
+    "actions": [
+      {
+        "id": "a0",
+        "name": "stand",
+        "lemma": "stand",
+        "args": [
+          "e0",
+          "I0"
+        ],
+        "roles": {
+          "actor": "e0"
+        },
+        "interval": "I0",
+        "aspect": "state",
+        "polarity": "positive",
+        "source": {
+          "text": "standing",
+          "start": 6,
+          "end": 14
+        },
+        "particles": [],
+        "negation_sources": []
+      }
+    ],
+    "attributes": [
+      {
+        "id": "p0",
+        "name": "black",
+        "args": [
+          "e1"
+        ],
+        "owner": "e1",
+        "source": {
+          "text": "black",
+          "start": 20,
+          "end": 25
+        },
+        "polarity": "positive",
+        "negation_sources": []
+      }
+    ],
+    "relations": [
+      {
+        "id": "r0",
+        "name": "wear",
+        "args": [
+          "e0",
+          "e1",
+          "I0"
+        ],
+        "source": {
+          "text": "in a black suit",
+          "start": 15,
+          "end": 30
+        },
+        "polarity": "positive",
+        "interpretation": "person_in_garment_rule"
+      }
+    ],
+    "intervals": [
+      {
+        "id": "I0",
+        "role": "target",
+        "seconds": null
+      }
+    ],
+    "temporal_mode": "simultaneous",
+    "temporal_relations": [],
+    "temporal_markers": [],
+    "polarity": "positive",
+    "negation_sources": [],
+    "predicates": [
+      {
+        "name": "man",
+        "args": [
+          "e0"
+        ],
+        "source": {
+          "text": "man",
+          "start": 2,
+          "end": 5
+        },
+        "polarity": "positive"
+      },
+      {
+        "name": "suit",
+        "args": [
+          "e1"
+        ],
+        "source": {
+          "text": "suit",
+          "start": 26,
+          "end": 30
+        },
+        "polarity": "positive"
+      },
+      {
+        "id": "p0",
+        "name": "black",
+        "args": [
+          "e1"
+        ],
+        "owner": "e1",
+        "source": {
+          "text": "black",
+          "start": 20,
+          "end": 25
+        },
+        "polarity": "positive",
+        "negation_sources": []
+      },
+      {
+        "id": "a0",
+        "name": "stand",
+        "lemma": "stand",
+        "args": [
+          "e0",
+          "I0"
+        ],
+        "roles": {
+          "actor": "e0"
+        },
+        "interval": "I0",
+        "aspect": "state",
+        "polarity": "positive",
+        "source": {
+          "text": "standing",
+          "start": 6,
+          "end": 14
+        },
+        "particles": [],
+        "negation_sources": []
+      },
+      {
+        "id": "r0",
+        "name": "wear",
+        "args": [
+          "e0",
+          "e1",
+          "I0"
+        ],
+        "source": {
+          "text": "in a black suit",
+          "start": 15,
+          "end": 30
+        },
+        "polarity": "positive",
+        "interpretation": "person_in_garment_rule"
+      }
+    ],
+    "retrieval_phrases": [
+      {
+        "text": "a man standing in a black suit",
+        "kind": "whole_query",
+        "source_start": 0,
+        "source_end": 30,
+        "weight": 1.0
+      },
+      {
+        "text": "a man standing",
+        "kind": "action",
+        "source_start": 0,
+        "source_end": 14,
+        "weight": 0.8
+      },
+      {
+        "text": "a black suit",
+        "kind": "attributed_entity",
+        "source_start": 18,
+        "source_end": 30,
+        "weight": 0.6
+      },
+      {
+        "text": "in a black suit",
+        "kind": "relation",
+        "source_start": 15,
+        "source_end": 30,
+        "weight": 0.5
+      },
+      {
+        "text": "a man",
+        "kind": "entity",
+        "source_start": 0,
+        "source_end": 5,
+        "weight": 0.35
+      }
+    ],
+    "limitations": [
+      "Dependency parsing is fallible; predicates are hypotheses, not calibrated probabilities.",
+      "Entity IDs express linguistic binding only; no visual tracks or visual identity evidence are supplied.",
+      "'Person in garment' is interpreted as wearing by an explicit lexical rule."
+    ],
+    "visual_evidence_status": "not_observed",
+    "confidence": null
+  },
+  {
+    "parser_version": "0.1.0",
+    "parser_model": "en_core_web_sm",
+    "parser_model_version": "3.8.0",
+    "text": "a man stands up after closing a door",
+    "query": "a man stands up after closing a door",
+    "target_interval": "I0",
+    "entities": [
+      {
+        "id": "e0",
+        "label": "man",
+        "category": "person",
+        "source": {
+          "text": "a man",
+          "start": 0,
+          "end": 5
+        },
+        "head_source": {
+          "text": "man",
+          "start": 2,
+          "end": 5
+        },
+        "is_pronoun": false
+      },
+      {
+        "id": "e1",
+        "label": "door",
+        "category": "entity",
+        "source": {
+          "text": "a door",
+          "start": 30,
+          "end": 36
+        },
+        "head_source": {
+          "text": "door",
+          "start": 32,
+          "end": 36
+        },
+        "is_pronoun": false
+      }
+    ],
+    "actions": [
+      {
+        "id": "a0",
+        "name": "stand_up",
+        "lemma": "stand",
+        "args": [
+          "e0",
+          "I0"
+        ],
+        "roles": {
+          "actor": "e0"
+        },
+        "interval": "I0",
+        "aspect": "transition",
+        "polarity": "positive",
+        "source": {
+          "text": "stands",
+          "start": 6,
+          "end": 12
+        },
+        "particles": [
+          {
+            "text": "up",
+            "start": 13,
+            "end": 15
+          }
+        ],
+        "negation_sources": []
+      },
+      {
+        "id": "a1",
+        "name": "close",
+        "lemma": "close",
+        "args": [
+          "e0",
+          "e1",
+          "I1"
+        ],
+        "roles": {
+          "actor": "e0",
+          "patient": "e1"
+        },
+        "interval": "I1",
+        "aspect": "event",
+        "polarity": "positive",
+        "source": {
+          "text": "closing",
+          "start": 22,
+          "end": 29
+        },
+        "particles": [],
+        "negation_sources": []
+      }
+    ],
+    "attributes": [],
+    "relations": [],
+    "intervals": [
+      {
+        "id": "I0",
+        "role": "target",
+        "seconds": null
+      },
+      {
+        "id": "I1",
+        "role": "context",
+        "seconds": null
+      }
+    ],
+    "temporal_mode": "sequential",
+    "temporal_relations": [
+      {
+        "name": "before",
+        "args": [
+          "I1",
+          "I0"
+        ],
+        "source": {
+          "text": "after",
+          "start": 16,
+          "end": 21
+        }
+      }
+    ],
+    "temporal_markers": [
+      {
+        "text": "after",
+        "start": 16,
+        "end": 21
+      }
+    ],
+    "polarity": "positive",
+    "negation_sources": [],
+    "predicates": [
+      {
+        "name": "man",
+        "args": [
+          "e0"
+        ],
+        "source": {
+          "text": "man",
+          "start": 2,
+          "end": 5
+        },
+        "polarity": "positive"
+      },
+      {
+        "name": "door",
+        "args": [
+          "e1"
+        ],
+        "source": {
+          "text": "door",
+          "start": 32,
+          "end": 36
+        },
+        "polarity": "positive"
+      },
+      {
+        "id": "a0",
+        "name": "stand_up",
+        "lemma": "stand",
+        "args": [
+          "e0",
+          "I0"
+        ],
+        "roles": {
+          "actor": "e0"
+        },
+        "interval": "I0",
+        "aspect": "transition",
+        "polarity": "positive",
+        "source": {
+          "text": "stands",
+          "start": 6,
+          "end": 12
+        },
+        "particles": [
+          {
+            "text": "up",
+            "start": 13,
+            "end": 15
+          }
+        ],
+        "negation_sources": []
+      },
+      {
+        "id": "a1",
+        "name": "close",
+        "lemma": "close",
+        "args": [
+          "e0",
+          "e1",
+          "I1"
+        ],
+        "roles": {
+          "actor": "e0",
+          "patient": "e1"
+        },
+        "interval": "I1",
+        "aspect": "event",
+        "polarity": "positive",
+        "source": {
+          "text": "closing",
+          "start": 22,
+          "end": 29
+        },
+        "particles": [],
+        "negation_sources": []
+      }
+    ],
+    "retrieval_phrases": [
+      {
+        "text": "a man stands up after closing a door",
+        "kind": "whole_query",
+        "source_start": 0,
+        "source_end": 36,
+        "weight": 1.0
+      },
+      {
+        "text": "a man stands up",
+        "kind": "action",
+        "source_start": 0,
+        "source_end": 15,
+        "weight": 0.8
+      },
+      {
+        "text": "closing a door",
+        "kind": "action",
+        "source_start": 22,
+        "source_end": 36,
+        "weight": 0.8
+      },
+      {
+        "text": "a man",
+        "kind": "entity",
+        "source_start": 0,
+        "source_end": 5,
+        "weight": 0.35
+      },
+      {
+        "text": "a door",
+        "kind": "entity",
+        "source_start": 30,
+        "source_end": 36,
+        "weight": 0.35
+      }
+    ],
+    "limitations": [
+      "Dependency parsing is fallible; predicates are hypotheses, not calibrated probabilities.",
+      "Entity IDs express linguistic binding only; no visual tracks or visual identity evidence are supplied."
+    ],
+    "visual_evidence_status": "not_observed",
+    "confidence": null
+  },
+  {
+    "parser_version": "0.1.0",
+    "parser_model": "en_core_web_sm",
+    "parser_model_version": "3.8.0",
+    "text": "a woman puts a cup on the table",
+    "query": "a woman puts a cup on the table",
+    "target_interval": "I0",
+    "entities": [
+      {
+        "id": "e0",
+        "label": "woman",
+        "category": "person",
+        "source": {
+          "text": "a woman",
+          "start": 0,
+          "end": 7
+        },
+        "head_source": {
+          "text": "woman",
+          "start": 2,
+          "end": 7
+        },
+        "is_pronoun": false
+      },
+      {
+        "id": "e1",
+        "label": "cup",
+        "category": "entity",
+        "source": {
+          "text": "a cup",
+          "start": 13,
+          "end": 18
+        },
+        "head_source": {
+          "text": "cup",
+          "start": 15,
+          "end": 18
+        },
+        "is_pronoun": false
+      },
+      {
+        "id": "e2",
+        "label": "table",
+        "category": "entity",
+        "source": {
+          "text": "the table",
+          "start": 22,
+          "end": 31
+        },
+        "head_source": {
+          "text": "table",
+          "start": 26,
+          "end": 31
+        },
+        "is_pronoun": false
+      }
+    ],
+    "actions": [
+      {
+        "id": "a0",
+        "name": "put",
+        "lemma": "put",
+        "args": [
+          "e0",
+          "e1",
+          "I0"
+        ],
+        "roles": {
+          "actor": "e0",
+          "patient": "e1"
+        },
+        "interval": "I0",
+        "aspect": "event",
+        "polarity": "positive",
+        "source": {
+          "text": "puts",
+          "start": 8,
+          "end": 12
+        },
+        "particles": [],
+        "negation_sources": []
+      }
+    ],
+    "attributes": [],
+    "relations": [
+      {
+        "id": "r0",
+        "name": "on",
+        "args": [
+          "e0",
+          "e2",
+          "I0"
+        ],
+        "source": {
+          "text": "on the table",
+          "start": 19,
+          "end": 31
+        },
+        "polarity": "positive",
+        "interpretation": "explicit_preposition"
+      }
+    ],
+    "intervals": [
+      {
+        "id": "I0",
+        "role": "target",
+        "seconds": null
+      }
+    ],
+    "temporal_mode": "simultaneous",
+    "temporal_relations": [],
+    "temporal_markers": [],
+    "polarity": "positive",
+    "negation_sources": [],
+    "predicates": [
+      {
+        "name": "woman",
+        "args": [
+          "e0"
+        ],
+        "source": {
+          "text": "woman",
+          "start": 2,
+          "end": 7
+        },
+        "polarity": "positive"
+      },
+      {
+        "name": "cup",
+        "args": [
+          "e1"
+        ],
+        "source": {
+          "text": "cup",
+          "start": 15,
+          "end": 18
+        },
+        "polarity": "positive"
+      },
+      {
+        "name": "table",
+        "args": [
+          "e2"
+        ],
+        "source": {
+          "text": "table",
+          "start": 26,
+          "end": 31
+        },
+        "polarity": "positive"
+      },
+      {
+        "id": "a0",
+        "name": "put",
+        "lemma": "put",
+        "args": [
+          "e0",
+          "e1",
+          "I0"
+        ],
+        "roles": {
+          "actor": "e0",
+          "patient": "e1"
+        },
+        "interval": "I0",
+        "aspect": "event",
+        "polarity": "positive",
+        "source": {
+          "text": "puts",
+          "start": 8,
+          "end": 12
+        },
+        "particles": [],
+        "negation_sources": []
+      },
+      {
+        "id": "r0",
+        "name": "on",
+        "args": [
+          "e0",
+          "e2",
+          "I0"
+        ],
+        "source": {
+          "text": "on the table",
+          "start": 19,
+          "end": 31
+        },
+        "polarity": "positive",
+        "interpretation": "explicit_preposition"
+      }
+    ],
+    "retrieval_phrases": [
+      {
+        "text": "a woman puts a cup on the table",
+        "kind": "whole_query",
+        "source_start": 0,
+        "source_end": 31,
+        "weight": 1.0
+      },
+      {
+        "text": "a woman puts a cup",
+        "kind": "action",
+        "source_start": 0,
+        "source_end": 18,
+        "weight": 0.8
+      },
+      {
+        "text": "on the table",
+        "kind": "relation",
+        "source_start": 19,
+        "source_end": 31,
+        "weight": 0.5
+      },
+      {
+        "text": "a woman",
+        "kind": "entity",
+        "source_start": 0,
+        "source_end": 7,
+        "weight": 0.35
+      },
+      {
+        "text": "a cup",
+        "kind": "entity",
+        "source_start": 13,
+        "source_end": 18,
+        "weight": 0.35
+      },
+      {
+        "text": "the table",
+        "kind": "entity",
+        "source_start": 22,
+        "source_end": 31,
+        "weight": 0.35
+      }
+    ],
+    "limitations": [
+      "Dependency parsing is fallible; predicates are hypotheses, not calibrated probabilities.",
+      "Entity IDs express linguistic binding only; no visual tracks or visual identity evidence are supplied."
+    ],
+    "visual_evidence_status": "not_observed",
+    "confidence": null
+  }
+]

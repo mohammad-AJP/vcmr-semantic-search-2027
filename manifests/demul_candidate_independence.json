@@ -1,0 +1,7 @@
+{
+  "max_start_absolute_difference": 3.337860107421875e-06,
+  "max_end_absolute_difference": 3.814697265625e-06,
+  "extra_video_is_duplicate_candidate_not_gt": true,
+  "tf32_disabled": true,
+  "start_scale": 10000.0
+}

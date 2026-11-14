@@ -1,0 +1,2298 @@
+[
+  {
+    "checkpoint_key": "encoder.visual_proj.LayerNorm.weight",
+    "model_key": "encoder.visual_proj.LayerNorm.weight",
+    "checkpoint_shape": [
+      4352
+    ],
+    "model_shape": [
+      4352
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.visual_proj.LayerNorm.bias",
+    "model_key": "encoder.visual_proj.LayerNorm.bias",
+    "checkpoint_shape": [
+      4352
+    ],
+    "model_shape": [
+      4352
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.visual_proj.net.1.weight",
+    "model_key": "encoder.visual_proj.net.1.weight",
+    "checkpoint_shape": [
+      384,
+      4352
+    ],
+    "model_shape": [
+      384,
+      4352
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.visual_proj.net.1.bias",
+    "model_key": "encoder.visual_proj.net.1.bias",
+    "checkpoint_shape": [
+      384
+    ],
+    "model_shape": [
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.text_proj.LayerNorm.weight",
+    "model_key": "encoder.text_proj.LayerNorm.weight",
+    "checkpoint_shape": [
+      768
+    ],
+    "model_shape": [
+      768
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.text_proj.LayerNorm.bias",
+    "model_key": "encoder.text_proj.LayerNorm.bias",
+    "checkpoint_shape": [
+      768
+    ],
+    "model_shape": [
+      768
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.text_proj.net.1.weight",
+    "model_key": "encoder.text_proj.net.1.weight",
+    "checkpoint_shape": [
+      384,
+      768
+    ],
+    "model_shape": [
+      384,
+      768
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.text_proj.net.1.bias",
+    "model_key": "encoder.text_proj.net.1.bias",
+    "checkpoint_shape": [
+      384
+    ],
+    "model_shape": [
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.query_proj.LayerNorm.weight",
+    "model_key": "encoder.query_proj.LayerNorm.weight",
+    "checkpoint_shape": [
+      768
+    ],
+    "model_shape": [
+      768
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.query_proj.LayerNorm.bias",
+    "model_key": "encoder.query_proj.LayerNorm.bias",
+    "checkpoint_shape": [
+      768
+    ],
+    "model_shape": [
+      768
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.query_proj.net.1.weight",
+    "model_key": "encoder.query_proj.net.1.weight",
+    "checkpoint_shape": [
+      384,
+      768
+    ],
+    "model_shape": [
+      384,
+      768
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.query_proj.net.1.bias",
+    "model_key": "encoder.query_proj.net.1.bias",
+    "checkpoint_shape": [
+      384
+    ],
+    "model_shape": [
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.position_embeddings.weight",
+    "model_key": "encoder.position_embeddings.weight",
+    "checkpoint_shape": [
+      100,
+      384
+    ],
+    "model_shape": [
+      100,
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.token_type_embeddings.weight",
+    "model_key": "encoder.token_type_embeddings.weight",
+    "checkpoint_shape": [
+      2,
+      384
+    ],
+    "model_shape": [
+      2,
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.LayerNormQuery.weight",
+    "model_key": "encoder.LayerNormQuery.weight",
+    "checkpoint_shape": [
+      384
+    ],
+    "model_shape": [
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.LayerNormQuery.bias",
+    "model_key": "encoder.LayerNormQuery.bias",
+    "checkpoint_shape": [
+      384
+    ],
+    "model_shape": [
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.LayerNormVisual.weight",
+    "model_key": "encoder.LayerNormVisual.weight",
+    "checkpoint_shape": [
+      384
+    ],
+    "model_shape": [
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.LayerNormVisual.bias",
+    "model_key": "encoder.LayerNormVisual.bias",
+    "checkpoint_shape": [
+      384
+    ],
+    "model_shape": [
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.LayerNormText.weight",
+    "model_key": "encoder.LayerNormText.weight",
+    "checkpoint_shape": [
+      384
+    ],
+    "model_shape": [
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.LayerNormText.bias",
+    "model_key": "encoder.LayerNormText.bias",
+    "checkpoint_shape": [
+      384
+    ],
+    "model_shape": [
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.queryEncoder.ln1.weight",
+    "model_key": "encoder.queryEncoder.ln1.weight",
+    "checkpoint_shape": [
+      1,
+      384,
+      1
+    ],
+    "model_shape": [
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.queryEncoder.ln1.bias",
+    "model_key": "encoder.queryEncoder.ln1.bias",
+    "checkpoint_shape": [
+      1,
+      384,
+      1
+    ],
+    "model_shape": [
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.queryEncoder.ln2.weight",
+    "model_key": "encoder.queryEncoder.ln2.weight",
+    "checkpoint_shape": [
+      1,
+      384,
+      1
+    ],
+    "model_shape": [
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.queryEncoder.ln2.bias",
+    "model_key": "encoder.queryEncoder.ln2.bias",
+    "checkpoint_shape": [
+      1,
+      384,
+      1
+    ],
+    "model_shape": [
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.queryEncoder.attn.key.weight",
+    "model_key": "encoder.queryEncoder.attn.key.weight",
+    "checkpoint_shape": [
+      384,
+      384,
+      1
+    ],
+    "model_shape": [
+      384,
+      384,
+      1
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.queryEncoder.attn.key.bias",
+    "model_key": "encoder.queryEncoder.attn.key.bias",
+    "checkpoint_shape": [
+      384
+    ],
+    "model_shape": [
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.queryEncoder.attn.query.weight",
+    "model_key": "encoder.queryEncoder.attn.query.weight",
+    "checkpoint_shape": [
+      384,
+      384,
+      1
+    ],
+    "model_shape": [
+      384,
+      384,
+      1
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.queryEncoder.attn.query.bias",
+    "model_key": "encoder.queryEncoder.attn.query.bias",
+    "checkpoint_shape": [
+      384
+    ],
+    "model_shape": [
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.queryEncoder.attn.value.weight",
+    "model_key": "encoder.queryEncoder.attn.value.weight",
+    "checkpoint_shape": [
+      384,
+      384,
+      1
+    ],
+    "model_shape": [
+      384,
+      384,
+      1
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.queryEncoder.attn.value.bias",
+    "model_key": "encoder.queryEncoder.attn.value.bias",
+    "checkpoint_shape": [
+      384
+    ],
+    "model_shape": [
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.queryEncoder.attn.proj.weight",
+    "model_key": "encoder.queryEncoder.attn.proj.weight",
+    "checkpoint_shape": [
+      384,
+      384,
+      1
+    ],
+    "model_shape": [
+      384,
+      384,
+      1
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.queryEncoder.attn.proj.bias",
+    "model_key": "encoder.queryEncoder.attn.proj.bias",
+    "checkpoint_shape": [
+      384
+    ],
+    "model_shape": [
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.queryEncoder.mlp.0.weight",
+    "model_key": "encoder.queryEncoder.mlp.0.weight",
+    "checkpoint_shape": [
+      1536,
+      384,
+      1
+    ],
+    "model_shape": [
+      1536,
+      384,
+      1
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.queryEncoder.mlp.0.bias",
+    "model_key": "encoder.queryEncoder.mlp.0.bias",
+    "checkpoint_shape": [
+      1536
+    ],
+    "model_shape": [
+      1536
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.queryEncoder.mlp.3.weight",
+    "model_key": "encoder.queryEncoder.mlp.3.weight",
+    "checkpoint_shape": [
+      384,
+      1536,
+      1
+    ],
+    "model_shape": [
+      384,
+      1536,
+      1
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.queryEncoder.mlp.3.bias",
+    "model_key": "encoder.queryEncoder.mlp.3.bias",
+    "checkpoint_shape": [
+      384
+    ],
+    "model_shape": [
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.visualEncoder.ln1.weight",
+    "model_key": "encoder.visualEncoder.ln1.weight",
+    "checkpoint_shape": [
+      1,
+      384,
+      1
+    ],
+    "model_shape": [
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.visualEncoder.ln1.bias",
+    "model_key": "encoder.visualEncoder.ln1.bias",
+    "checkpoint_shape": [
+      1,
+      384,
+      1
+    ],
+    "model_shape": [
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.visualEncoder.ln2.weight",
+    "model_key": "encoder.visualEncoder.ln2.weight",
+    "checkpoint_shape": [
+      1,
+      384,
+      1
+    ],
+    "model_shape": [
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.visualEncoder.ln2.bias",
+    "model_key": "encoder.visualEncoder.ln2.bias",
+    "checkpoint_shape": [
+      1,
+      384,
+      1
+    ],
+    "model_shape": [
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.visualEncoder.attn.rel_pe",
+    "model_key": "encoder.visualEncoder.attn.rel_pe",
+    "checkpoint_shape": [
+      1,
+      1,
+      8,
+      5
+    ],
+    "model_shape": [
+      1,
+      1,
+      8,
+      5
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.visualEncoder.attn.key.weight",
+    "model_key": "encoder.visualEncoder.attn.key.weight",
+    "checkpoint_shape": [
+      384,
+      384,
+      1
+    ],
+    "model_shape": [
+      384,
+      384,
+      1
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.visualEncoder.attn.key.bias",
+    "model_key": "encoder.visualEncoder.attn.key.bias",
+    "checkpoint_shape": [
+      384
+    ],
+    "model_shape": [
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.visualEncoder.attn.query.weight",
+    "model_key": "encoder.visualEncoder.attn.query.weight",
+    "checkpoint_shape": [
+      384,
+      384,
+      1
+    ],
+    "model_shape": [
+      384,
+      384,
+      1
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.visualEncoder.attn.query.bias",
+    "model_key": "encoder.visualEncoder.attn.query.bias",
+    "checkpoint_shape": [
+      384
+    ],
+    "model_shape": [
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.visualEncoder.attn.value.weight",
+    "model_key": "encoder.visualEncoder.attn.value.weight",
+    "checkpoint_shape": [
+      384,
+      384,
+      1
+    ],
+    "model_shape": [
+      384,
+      384,
+      1
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.visualEncoder.attn.value.bias",
+    "model_key": "encoder.visualEncoder.attn.value.bias",
+    "checkpoint_shape": [
+      384
+    ],
+    "model_shape": [
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.visualEncoder.attn.proj.weight",
+    "model_key": "encoder.visualEncoder.attn.proj.weight",
+    "checkpoint_shape": [
+      384,
+      384,
+      1
+    ],
+    "model_shape": [
+      384,
+      384,
+      1
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.visualEncoder.attn.proj.bias",
+    "model_key": "encoder.visualEncoder.attn.proj.bias",
+    "checkpoint_shape": [
+      384
+    ],
+    "model_shape": [
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.visualEncoder.cross_attn.key.weight",
+    "model_key": "encoder.visualEncoder.cross_attn.key.weight",
+    "checkpoint_shape": [
+      384,
+      384,
+      1
+    ],
+    "model_shape": [
+      384,
+      384,
+      1
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.visualEncoder.cross_attn.key.bias",
+    "model_key": "encoder.visualEncoder.cross_attn.key.bias",
+    "checkpoint_shape": [
+      384
+    ],
+    "model_shape": [
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.visualEncoder.cross_attn.query.weight",
+    "model_key": "encoder.visualEncoder.cross_attn.query.weight",
+    "checkpoint_shape": [
+      384,
+      384,
+      1
+    ],
+    "model_shape": [
+      384,
+      384,
+      1
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.visualEncoder.cross_attn.query.bias",
+    "model_key": "encoder.visualEncoder.cross_attn.query.bias",
+    "checkpoint_shape": [
+      384
+    ],
+    "model_shape": [
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.visualEncoder.cross_attn.value.weight",
+    "model_key": "encoder.visualEncoder.cross_attn.value.weight",
+    "checkpoint_shape": [
+      384,
+      384,
+      1
+    ],
+    "model_shape": [
+      384,
+      384,
+      1
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.visualEncoder.cross_attn.value.bias",
+    "model_key": "encoder.visualEncoder.cross_attn.value.bias",
+    "checkpoint_shape": [
+      384
+    ],
+    "model_shape": [
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.visualEncoder.cross_attn.proj.weight",
+    "model_key": "encoder.visualEncoder.cross_attn.proj.weight",
+    "checkpoint_shape": [
+      384,
+      384,
+      1
+    ],
+    "model_shape": [
+      384,
+      384,
+      1
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.visualEncoder.cross_attn.proj.bias",
+    "model_key": "encoder.visualEncoder.cross_attn.proj.bias",
+    "checkpoint_shape": [
+      384
+    ],
+    "model_shape": [
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.visualEncoder.ln3.weight",
+    "model_key": "encoder.visualEncoder.ln3.weight",
+    "checkpoint_shape": [
+      1,
+      384,
+      1
+    ],
+    "model_shape": [
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.visualEncoder.ln3.bias",
+    "model_key": "encoder.visualEncoder.ln3.bias",
+    "checkpoint_shape": [
+      1,
+      384,
+      1
+    ],
+    "model_shape": [
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.visualEncoder.ln4.weight",
+    "model_key": "encoder.visualEncoder.ln4.weight",
+    "checkpoint_shape": [
+      1,
+      384,
+      1
+    ],
+    "model_shape": [
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.visualEncoder.ln4.bias",
+    "model_key": "encoder.visualEncoder.ln4.bias",
+    "checkpoint_shape": [
+      1,
+      384,
+      1
+    ],
+    "model_shape": [
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.visualEncoder.mlp.0.weight",
+    "model_key": "encoder.visualEncoder.mlp.0.weight",
+    "checkpoint_shape": [
+      1536,
+      384,
+      1
+    ],
+    "model_shape": [
+      1536,
+      384,
+      1
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.visualEncoder.mlp.0.bias",
+    "model_key": "encoder.visualEncoder.mlp.0.bias",
+    "checkpoint_shape": [
+      1536
+    ],
+    "model_shape": [
+      1536
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.visualEncoder.mlp.3.weight",
+    "model_key": "encoder.visualEncoder.mlp.3.weight",
+    "checkpoint_shape": [
+      384,
+      1536,
+      1
+    ],
+    "model_shape": [
+      384,
+      1536,
+      1
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.visualEncoder.mlp.3.bias",
+    "model_key": "encoder.visualEncoder.mlp.3.bias",
+    "checkpoint_shape": [
+      384
+    ],
+    "model_shape": [
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.textEncoder.ln1.weight",
+    "model_key": "encoder.textEncoder.ln1.weight",
+    "checkpoint_shape": [
+      1,
+      384,
+      1
+    ],
+    "model_shape": [
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.textEncoder.ln1.bias",
+    "model_key": "encoder.textEncoder.ln1.bias",
+    "checkpoint_shape": [
+      1,
+      384,
+      1
+    ],
+    "model_shape": [
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.textEncoder.ln2.weight",
+    "model_key": "encoder.textEncoder.ln2.weight",
+    "checkpoint_shape": [
+      1,
+      384,
+      1
+    ],
+    "model_shape": [
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.textEncoder.ln2.bias",
+    "model_key": "encoder.textEncoder.ln2.bias",
+    "checkpoint_shape": [
+      1,
+      384,
+      1
+    ],
+    "model_shape": [
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.textEncoder.attn.rel_pe",
+    "model_key": "encoder.textEncoder.attn.rel_pe",
+    "checkpoint_shape": [
+      1,
+      1,
+      8,
+      5
+    ],
+    "model_shape": [
+      1,
+      1,
+      8,
+      5
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.textEncoder.attn.key.weight",
+    "model_key": "encoder.textEncoder.attn.key.weight",
+    "checkpoint_shape": [
+      384,
+      384,
+      1
+    ],
+    "model_shape": [
+      384,
+      384,
+      1
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.textEncoder.attn.key.bias",
+    "model_key": "encoder.textEncoder.attn.key.bias",
+    "checkpoint_shape": [
+      384
+    ],
+    "model_shape": [
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.textEncoder.attn.query.weight",
+    "model_key": "encoder.textEncoder.attn.query.weight",
+    "checkpoint_shape": [
+      384,
+      384,
+      1
+    ],
+    "model_shape": [
+      384,
+      384,
+      1
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.textEncoder.attn.query.bias",
+    "model_key": "encoder.textEncoder.attn.query.bias",
+    "checkpoint_shape": [
+      384
+    ],
+    "model_shape": [
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.textEncoder.attn.value.weight",
+    "model_key": "encoder.textEncoder.attn.value.weight",
+    "checkpoint_shape": [
+      384,
+      384,
+      1
+    ],
+    "model_shape": [
+      384,
+      384,
+      1
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.textEncoder.attn.value.bias",
+    "model_key": "encoder.textEncoder.attn.value.bias",
+    "checkpoint_shape": [
+      384
+    ],
+    "model_shape": [
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.textEncoder.attn.proj.weight",
+    "model_key": "encoder.textEncoder.attn.proj.weight",
+    "checkpoint_shape": [
+      384,
+      384,
+      1
+    ],
+    "model_shape": [
+      384,
+      384,
+      1
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.textEncoder.attn.proj.bias",
+    "model_key": "encoder.textEncoder.attn.proj.bias",
+    "checkpoint_shape": [
+      384
+    ],
+    "model_shape": [
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.textEncoder.cross_attn.key.weight",
+    "model_key": "encoder.textEncoder.cross_attn.key.weight",
+    "checkpoint_shape": [
+      384,
+      384,
+      1
+    ],
+    "model_shape": [
+      384,
+      384,
+      1
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.textEncoder.cross_attn.key.bias",
+    "model_key": "encoder.textEncoder.cross_attn.key.bias",
+    "checkpoint_shape": [
+      384
+    ],
+    "model_shape": [
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.textEncoder.cross_attn.query.weight",
+    "model_key": "encoder.textEncoder.cross_attn.query.weight",
+    "checkpoint_shape": [
+      384,
+      384,
+      1
+    ],
+    "model_shape": [
+      384,
+      384,
+      1
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.textEncoder.cross_attn.query.bias",
+    "model_key": "encoder.textEncoder.cross_attn.query.bias",
+    "checkpoint_shape": [
+      384
+    ],
+    "model_shape": [
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.textEncoder.cross_attn.value.weight",
+    "model_key": "encoder.textEncoder.cross_attn.value.weight",
+    "checkpoint_shape": [
+      384,
+      384,
+      1
+    ],
+    "model_shape": [
+      384,
+      384,
+      1
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.textEncoder.cross_attn.value.bias",
+    "model_key": "encoder.textEncoder.cross_attn.value.bias",
+    "checkpoint_shape": [
+      384
+    ],
+    "model_shape": [
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.textEncoder.cross_attn.proj.weight",
+    "model_key": "encoder.textEncoder.cross_attn.proj.weight",
+    "checkpoint_shape": [
+      384,
+      384,
+      1
+    ],
+    "model_shape": [
+      384,
+      384,
+      1
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.textEncoder.cross_attn.proj.bias",
+    "model_key": "encoder.textEncoder.cross_attn.proj.bias",
+    "checkpoint_shape": [
+      384
+    ],
+    "model_shape": [
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.textEncoder.ln3.weight",
+    "model_key": "encoder.textEncoder.ln3.weight",
+    "checkpoint_shape": [
+      1,
+      384,
+      1
+    ],
+    "model_shape": [
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.textEncoder.ln3.bias",
+    "model_key": "encoder.textEncoder.ln3.bias",
+    "checkpoint_shape": [
+      1,
+      384,
+      1
+    ],
+    "model_shape": [
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.textEncoder.ln4.weight",
+    "model_key": "encoder.textEncoder.ln4.weight",
+    "checkpoint_shape": [
+      1,
+      384,
+      1
+    ],
+    "model_shape": [
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.textEncoder.ln4.bias",
+    "model_key": "encoder.textEncoder.ln4.bias",
+    "checkpoint_shape": [
+      1,
+      384,
+      1
+    ],
+    "model_shape": [
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.textEncoder.mlp.0.weight",
+    "model_key": "encoder.textEncoder.mlp.0.weight",
+    "checkpoint_shape": [
+      1536,
+      384,
+      1
+    ],
+    "model_shape": [
+      1536,
+      384,
+      1
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.textEncoder.mlp.0.bias",
+    "model_key": "encoder.textEncoder.mlp.0.bias",
+    "checkpoint_shape": [
+      1536
+    ],
+    "model_shape": [
+      1536
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.textEncoder.mlp.3.weight",
+    "model_key": "encoder.textEncoder.mlp.3.weight",
+    "checkpoint_shape": [
+      384,
+      1536,
+      1
+    ],
+    "model_shape": [
+      384,
+      1536,
+      1
+    ]
+  },
+  {
+    "checkpoint_key": "encoder.textEncoder.mlp.3.bias",
+    "model_key": "encoder.textEncoder.mlp.3.bias",
+    "checkpoint_shape": [
+      384
+    ],
+    "model_shape": [
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "query_weight.text_pooling.clusters",
+    "model_key": "query_weight.text_pooling.clusters",
+    "checkpoint_shape": [
+      384,
+      32
+    ],
+    "model_shape": [
+      384,
+      32
+    ]
+  },
+  {
+    "checkpoint_key": "query_weight.text_pooling.clusters2",
+    "model_key": "query_weight.text_pooling.clusters2",
+    "checkpoint_shape": [
+      1,
+      384,
+      32
+    ],
+    "model_shape": [
+      1,
+      384,
+      32
+    ]
+  },
+  {
+    "checkpoint_key": "query_weight.text_pooling.LayerNorm.weight",
+    "model_key": "query_weight.text_pooling.LayerNorm.weight",
+    "checkpoint_shape": [
+      32
+    ],
+    "model_shape": [
+      32
+    ]
+  },
+  {
+    "checkpoint_key": "query_weight.text_pooling.LayerNorm.bias",
+    "model_key": "query_weight.text_pooling.LayerNorm.bias",
+    "checkpoint_shape": [
+      32
+    ],
+    "model_shape": [
+      32
+    ]
+  },
+  {
+    "checkpoint_key": "query_weight.moe_fc_txt.weight",
+    "model_key": "query_weight.moe_fc.weight",
+    "checkpoint_shape": [
+      2,
+      12288
+    ],
+    "model_shape": [
+      2,
+      12288
+    ]
+  },
+  {
+    "checkpoint_key": "contextual_QDF_visual_feature_learning.ln1.weight",
+    "model_key": "qdf_visual.ln1.weight",
+    "checkpoint_shape": [
+      1,
+      384,
+      1
+    ],
+    "model_shape": [
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "contextual_QDF_visual_feature_learning.ln1.bias",
+    "model_key": "qdf_visual.ln1.bias",
+    "checkpoint_shape": [
+      1,
+      384,
+      1
+    ],
+    "model_shape": [
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "contextual_QDF_visual_feature_learning.ln2.weight",
+    "model_key": "qdf_visual.ln2.weight",
+    "checkpoint_shape": [
+      1,
+      384,
+      1
+    ],
+    "model_shape": [
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "contextual_QDF_visual_feature_learning.ln2.bias",
+    "model_key": "qdf_visual.ln2.bias",
+    "checkpoint_shape": [
+      1,
+      384,
+      1
+    ],
+    "model_shape": [
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "contextual_QDF_visual_feature_learning.attn.rel_pe",
+    "model_key": "qdf_visual.attn.rel_pe",
+    "checkpoint_shape": [
+      1,
+      1,
+      8,
+      5
+    ],
+    "model_shape": [
+      1,
+      1,
+      8,
+      5
+    ]
+  },
+  {
+    "checkpoint_key": "contextual_QDF_visual_feature_learning.attn.key.weight",
+    "model_key": "qdf_visual.attn.key.weight",
+    "checkpoint_shape": [
+      384,
+      384,
+      1
+    ],
+    "model_shape": [
+      384,
+      384,
+      1
+    ]
+  },
+  {
+    "checkpoint_key": "contextual_QDF_visual_feature_learning.attn.key.bias",
+    "model_key": "qdf_visual.attn.key.bias",
+    "checkpoint_shape": [
+      384
+    ],
+    "model_shape": [
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "contextual_QDF_visual_feature_learning.attn.query.weight",
+    "model_key": "qdf_visual.attn.query.weight",
+    "checkpoint_shape": [
+      384,
+      384,
+      1
+    ],
+    "model_shape": [
+      384,
+      384,
+      1
+    ]
+  },
+  {
+    "checkpoint_key": "contextual_QDF_visual_feature_learning.attn.query.bias",
+    "model_key": "qdf_visual.attn.query.bias",
+    "checkpoint_shape": [
+      384
+    ],
+    "model_shape": [
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "contextual_QDF_visual_feature_learning.attn.value.weight",
+    "model_key": "qdf_visual.attn.value.weight",
+    "checkpoint_shape": [
+      384,
+      384,
+      1
+    ],
+    "model_shape": [
+      384,
+      384,
+      1
+    ]
+  },
+  {
+    "checkpoint_key": "contextual_QDF_visual_feature_learning.attn.value.bias",
+    "model_key": "qdf_visual.attn.value.bias",
+    "checkpoint_shape": [
+      384
+    ],
+    "model_shape": [
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "contextual_QDF_visual_feature_learning.attn.proj.weight",
+    "model_key": "qdf_visual.attn.proj.weight",
+    "checkpoint_shape": [
+      384,
+      384,
+      1
+    ],
+    "model_shape": [
+      384,
+      384,
+      1
+    ]
+  },
+  {
+    "checkpoint_key": "contextual_QDF_visual_feature_learning.attn.proj.bias",
+    "model_key": "qdf_visual.attn.proj.bias",
+    "checkpoint_shape": [
+      384
+    ],
+    "model_shape": [
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "contextual_QDF_visual_feature_learning.cross_attn.key.weight",
+    "model_key": "qdf_visual.cross_attn.key.weight",
+    "checkpoint_shape": [
+      384,
+      384,
+      1
+    ],
+    "model_shape": [
+      384,
+      384,
+      1
+    ]
+  },
+  {
+    "checkpoint_key": "contextual_QDF_visual_feature_learning.cross_attn.key.bias",
+    "model_key": "qdf_visual.cross_attn.key.bias",
+    "checkpoint_shape": [
+      384
+    ],
+    "model_shape": [
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "contextual_QDF_visual_feature_learning.cross_attn.query.weight",
+    "model_key": "qdf_visual.cross_attn.query.weight",
+    "checkpoint_shape": [
+      384,
+      384,
+      1
+    ],
+    "model_shape": [
+      384,
+      384,
+      1
+    ]
+  },
+  {
+    "checkpoint_key": "contextual_QDF_visual_feature_learning.cross_attn.query.bias",
+    "model_key": "qdf_visual.cross_attn.query.bias",
+    "checkpoint_shape": [
+      384
+    ],
+    "model_shape": [
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "contextual_QDF_visual_feature_learning.cross_attn.value.weight",
+    "model_key": "qdf_visual.cross_attn.value.weight",
+    "checkpoint_shape": [
+      384,
+      384,
+      1
+    ],
+    "model_shape": [
+      384,
+      384,
+      1
+    ]
+  },
+  {
+    "checkpoint_key": "contextual_QDF_visual_feature_learning.cross_attn.value.bias",
+    "model_key": "qdf_visual.cross_attn.value.bias",
+    "checkpoint_shape": [
+      384
+    ],
+    "model_shape": [
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "contextual_QDF_visual_feature_learning.cross_attn.proj.weight",
+    "model_key": "qdf_visual.cross_attn.proj.weight",
+    "checkpoint_shape": [
+      384,
+      384,
+      1
+    ],
+    "model_shape": [
+      384,
+      384,
+      1
+    ]
+  },
+  {
+    "checkpoint_key": "contextual_QDF_visual_feature_learning.cross_attn.proj.bias",
+    "model_key": "qdf_visual.cross_attn.proj.bias",
+    "checkpoint_shape": [
+      384
+    ],
+    "model_shape": [
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "contextual_QDF_visual_feature_learning.ln3.weight",
+    "model_key": "qdf_visual.ln3.weight",
+    "checkpoint_shape": [
+      1,
+      384,
+      1
+    ],
+    "model_shape": [
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "contextual_QDF_visual_feature_learning.ln3.bias",
+    "model_key": "qdf_visual.ln3.bias",
+    "checkpoint_shape": [
+      1,
+      384,
+      1
+    ],
+    "model_shape": [
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "contextual_QDF_visual_feature_learning.ln4.weight",
+    "model_key": "qdf_visual.ln4.weight",
+    "checkpoint_shape": [
+      1,
+      384,
+      1
+    ],
+    "model_shape": [
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "contextual_QDF_visual_feature_learning.ln4.bias",
+    "model_key": "qdf_visual.ln4.bias",
+    "checkpoint_shape": [
+      1,
+      384,
+      1
+    ],
+    "model_shape": [
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "contextual_QDF_visual_feature_learning.mlp.0.weight",
+    "model_key": "qdf_visual.mlp.0.weight",
+    "checkpoint_shape": [
+      1536,
+      384,
+      1
+    ],
+    "model_shape": [
+      1536,
+      384,
+      1
+    ]
+  },
+  {
+    "checkpoint_key": "contextual_QDF_visual_feature_learning.mlp.0.bias",
+    "model_key": "qdf_visual.mlp.0.bias",
+    "checkpoint_shape": [
+      1536
+    ],
+    "model_shape": [
+      1536
+    ]
+  },
+  {
+    "checkpoint_key": "contextual_QDF_visual_feature_learning.mlp.3.weight",
+    "model_key": "qdf_visual.mlp.3.weight",
+    "checkpoint_shape": [
+      384,
+      1536,
+      1
+    ],
+    "model_shape": [
+      384,
+      1536,
+      1
+    ]
+  },
+  {
+    "checkpoint_key": "contextual_QDF_visual_feature_learning.mlp.3.bias",
+    "model_key": "qdf_visual.mlp.3.bias",
+    "checkpoint_shape": [
+      384
+    ],
+    "model_shape": [
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "contextual_QDF_text_feature_learning.ln1.weight",
+    "model_key": "qdf_text.ln1.weight",
+    "checkpoint_shape": [
+      1,
+      384,
+      1
+    ],
+    "model_shape": [
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "contextual_QDF_text_feature_learning.ln1.bias",
+    "model_key": "qdf_text.ln1.bias",
+    "checkpoint_shape": [
+      1,
+      384,
+      1
+    ],
+    "model_shape": [
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "contextual_QDF_text_feature_learning.ln2.weight",
+    "model_key": "qdf_text.ln2.weight",
+    "checkpoint_shape": [
+      1,
+      384,
+      1
+    ],
+    "model_shape": [
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "contextual_QDF_text_feature_learning.ln2.bias",
+    "model_key": "qdf_text.ln2.bias",
+    "checkpoint_shape": [
+      1,
+      384,
+      1
+    ],
+    "model_shape": [
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "contextual_QDF_text_feature_learning.attn.rel_pe",
+    "model_key": "qdf_text.attn.rel_pe",
+    "checkpoint_shape": [
+      1,
+      1,
+      8,
+      5
+    ],
+    "model_shape": [
+      1,
+      1,
+      8,
+      5
+    ]
+  },
+  {
+    "checkpoint_key": "contextual_QDF_text_feature_learning.attn.key.weight",
+    "model_key": "qdf_text.attn.key.weight",
+    "checkpoint_shape": [
+      384,
+      384,
+      1
+    ],
+    "model_shape": [
+      384,
+      384,
+      1
+    ]
+  },
+  {
+    "checkpoint_key": "contextual_QDF_text_feature_learning.attn.key.bias",
+    "model_key": "qdf_text.attn.key.bias",
+    "checkpoint_shape": [
+      384
+    ],
+    "model_shape": [
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "contextual_QDF_text_feature_learning.attn.query.weight",
+    "model_key": "qdf_text.attn.query.weight",
+    "checkpoint_shape": [
+      384,
+      384,
+      1
+    ],
+    "model_shape": [
+      384,
+      384,
+      1
+    ]
+  },
+  {
+    "checkpoint_key": "contextual_QDF_text_feature_learning.attn.query.bias",
+    "model_key": "qdf_text.attn.query.bias",
+    "checkpoint_shape": [
+      384
+    ],
+    "model_shape": [
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "contextual_QDF_text_feature_learning.attn.value.weight",
+    "model_key": "qdf_text.attn.value.weight",
+    "checkpoint_shape": [
+      384,
+      384,
+      1
+    ],
+    "model_shape": [
+      384,
+      384,
+      1
+    ]
+  },
+  {
+    "checkpoint_key": "contextual_QDF_text_feature_learning.attn.value.bias",
+    "model_key": "qdf_text.attn.value.bias",
+    "checkpoint_shape": [
+      384
+    ],
+    "model_shape": [
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "contextual_QDF_text_feature_learning.attn.proj.weight",
+    "model_key": "qdf_text.attn.proj.weight",
+    "checkpoint_shape": [
+      384,
+      384,
+      1
+    ],
+    "model_shape": [
+      384,
+      384,
+      1
+    ]
+  },
+  {
+    "checkpoint_key": "contextual_QDF_text_feature_learning.attn.proj.bias",
+    "model_key": "qdf_text.attn.proj.bias",
+    "checkpoint_shape": [
+      384
+    ],
+    "model_shape": [
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "contextual_QDF_text_feature_learning.cross_attn.key.weight",
+    "model_key": "qdf_text.cross_attn.key.weight",
+    "checkpoint_shape": [
+      384,
+      384,
+      1
+    ],
+    "model_shape": [
+      384,
+      384,
+      1
+    ]
+  },
+  {
+    "checkpoint_key": "contextual_QDF_text_feature_learning.cross_attn.key.bias",
+    "model_key": "qdf_text.cross_attn.key.bias",
+    "checkpoint_shape": [
+      384
+    ],
+    "model_shape": [
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "contextual_QDF_text_feature_learning.cross_attn.query.weight",
+    "model_key": "qdf_text.cross_attn.query.weight",
+    "checkpoint_shape": [
+      384,
+      384,
+      1
+    ],
+    "model_shape": [
+      384,
+      384,
+      1
+    ]
+  },
+  {
+    "checkpoint_key": "contextual_QDF_text_feature_learning.cross_attn.query.bias",
+    "model_key": "qdf_text.cross_attn.query.bias",
+    "checkpoint_shape": [
+      384
+    ],
+    "model_shape": [
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "contextual_QDF_text_feature_learning.cross_attn.value.weight",
+    "model_key": "qdf_text.cross_attn.value.weight",
+    "checkpoint_shape": [
+      384,
+      384,
+      1
+    ],
+    "model_shape": [
+      384,
+      384,
+      1
+    ]
+  },
+  {
+    "checkpoint_key": "contextual_QDF_text_feature_learning.cross_attn.value.bias",
+    "model_key": "qdf_text.cross_attn.value.bias",
+    "checkpoint_shape": [
+      384
+    ],
+    "model_shape": [
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "contextual_QDF_text_feature_learning.cross_attn.proj.weight",
+    "model_key": "qdf_text.cross_attn.proj.weight",
+    "checkpoint_shape": [
+      384,
+      384,
+      1
+    ],
+    "model_shape": [
+      384,
+      384,
+      1
+    ]
+  },
+  {
+    "checkpoint_key": "contextual_QDF_text_feature_learning.cross_attn.proj.bias",
+    "model_key": "qdf_text.cross_attn.proj.bias",
+    "checkpoint_shape": [
+      384
+    ],
+    "model_shape": [
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "contextual_QDF_text_feature_learning.ln3.weight",
+    "model_key": "qdf_text.ln3.weight",
+    "checkpoint_shape": [
+      1,
+      384,
+      1
+    ],
+    "model_shape": [
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "contextual_QDF_text_feature_learning.ln3.bias",
+    "model_key": "qdf_text.ln3.bias",
+    "checkpoint_shape": [
+      1,
+      384,
+      1
+    ],
+    "model_shape": [
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "contextual_QDF_text_feature_learning.ln4.weight",
+    "model_key": "qdf_text.ln4.weight",
+    "checkpoint_shape": [
+      1,
+      384,
+      1
+    ],
+    "model_shape": [
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "contextual_QDF_text_feature_learning.ln4.bias",
+    "model_key": "qdf_text.ln4.bias",
+    "checkpoint_shape": [
+      1,
+      384,
+      1
+    ],
+    "model_shape": [
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "contextual_QDF_text_feature_learning.mlp.0.weight",
+    "model_key": "qdf_text.mlp.0.weight",
+    "checkpoint_shape": [
+      1536,
+      384,
+      1
+    ],
+    "model_shape": [
+      1536,
+      384,
+      1
+    ]
+  },
+  {
+    "checkpoint_key": "contextual_QDF_text_feature_learning.mlp.0.bias",
+    "model_key": "qdf_text.mlp.0.bias",
+    "checkpoint_shape": [
+      1536
+    ],
+    "model_shape": [
+      1536
+    ]
+  },
+  {
+    "checkpoint_key": "contextual_QDF_text_feature_learning.mlp.3.weight",
+    "model_key": "qdf_text.mlp.3.weight",
+    "checkpoint_shape": [
+      384,
+      1536,
+      1
+    ],
+    "model_shape": [
+      384,
+      1536,
+      1
+    ]
+  },
+  {
+    "checkpoint_key": "contextual_QDF_text_feature_learning.mlp.3.bias",
+    "model_key": "qdf_text.mlp.3.bias",
+    "checkpoint_shape": [
+      384
+    ],
+    "model_shape": [
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "fusion_moment_localization_head.begin_GRU.weight_ih_l0",
+    "model_key": "moment_head.begin_GRU.weight_ih_l0",
+    "checkpoint_shape": [
+      576,
+      384
+    ],
+    "model_shape": [
+      576,
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "fusion_moment_localization_head.begin_GRU.weight_hh_l0",
+    "model_key": "moment_head.begin_GRU.weight_hh_l0",
+    "checkpoint_shape": [
+      576,
+      192
+    ],
+    "model_shape": [
+      576,
+      192
+    ]
+  },
+  {
+    "checkpoint_key": "fusion_moment_localization_head.begin_GRU.bias_ih_l0",
+    "model_key": "moment_head.begin_GRU.bias_ih_l0",
+    "checkpoint_shape": [
+      576
+    ],
+    "model_shape": [
+      576
+    ]
+  },
+  {
+    "checkpoint_key": "fusion_moment_localization_head.begin_GRU.bias_hh_l0",
+    "model_key": "moment_head.begin_GRU.bias_hh_l0",
+    "checkpoint_shape": [
+      576
+    ],
+    "model_shape": [
+      576
+    ]
+  },
+  {
+    "checkpoint_key": "fusion_moment_localization_head.begin_GRU.weight_ih_l0_reverse",
+    "model_key": "moment_head.begin_GRU.weight_ih_l0_reverse",
+    "checkpoint_shape": [
+      576,
+      384
+    ],
+    "model_shape": [
+      576,
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "fusion_moment_localization_head.begin_GRU.weight_hh_l0_reverse",
+    "model_key": "moment_head.begin_GRU.weight_hh_l0_reverse",
+    "checkpoint_shape": [
+      576,
+      192
+    ],
+    "model_shape": [
+      576,
+      192
+    ]
+  },
+  {
+    "checkpoint_key": "fusion_moment_localization_head.begin_GRU.bias_ih_l0_reverse",
+    "model_key": "moment_head.begin_GRU.bias_ih_l0_reverse",
+    "checkpoint_shape": [
+      576
+    ],
+    "model_shape": [
+      576
+    ]
+  },
+  {
+    "checkpoint_key": "fusion_moment_localization_head.begin_GRU.bias_hh_l0_reverse",
+    "model_key": "moment_head.begin_GRU.bias_hh_l0_reverse",
+    "checkpoint_shape": [
+      576
+    ],
+    "model_shape": [
+      576
+    ]
+  },
+  {
+    "checkpoint_key": "fusion_moment_localization_head.begin_GRU.weight_ih_l1",
+    "model_key": "moment_head.begin_GRU.weight_ih_l1",
+    "checkpoint_shape": [
+      576,
+      384
+    ],
+    "model_shape": [
+      576,
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "fusion_moment_localization_head.begin_GRU.weight_hh_l1",
+    "model_key": "moment_head.begin_GRU.weight_hh_l1",
+    "checkpoint_shape": [
+      576,
+      192
+    ],
+    "model_shape": [
+      576,
+      192
+    ]
+  },
+  {
+    "checkpoint_key": "fusion_moment_localization_head.begin_GRU.bias_ih_l1",
+    "model_key": "moment_head.begin_GRU.bias_ih_l1",
+    "checkpoint_shape": [
+      576
+    ],
+    "model_shape": [
+      576
+    ]
+  },
+  {
+    "checkpoint_key": "fusion_moment_localization_head.begin_GRU.bias_hh_l1",
+    "model_key": "moment_head.begin_GRU.bias_hh_l1",
+    "checkpoint_shape": [
+      576
+    ],
+    "model_shape": [
+      576
+    ]
+  },
+  {
+    "checkpoint_key": "fusion_moment_localization_head.begin_GRU.weight_ih_l1_reverse",
+    "model_key": "moment_head.begin_GRU.weight_ih_l1_reverse",
+    "checkpoint_shape": [
+      576,
+      384
+    ],
+    "model_shape": [
+      576,
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "fusion_moment_localization_head.begin_GRU.weight_hh_l1_reverse",
+    "model_key": "moment_head.begin_GRU.weight_hh_l1_reverse",
+    "checkpoint_shape": [
+      576,
+      192
+    ],
+    "model_shape": [
+      576,
+      192
+    ]
+  },
+  {
+    "checkpoint_key": "fusion_moment_localization_head.begin_GRU.bias_ih_l1_reverse",
+    "model_key": "moment_head.begin_GRU.bias_ih_l1_reverse",
+    "checkpoint_shape": [
+      576
+    ],
+    "model_shape": [
+      576
+    ]
+  },
+  {
+    "checkpoint_key": "fusion_moment_localization_head.begin_GRU.bias_hh_l1_reverse",
+    "model_key": "moment_head.begin_GRU.bias_hh_l1_reverse",
+    "checkpoint_shape": [
+      576
+    ],
+    "model_shape": [
+      576
+    ]
+  },
+  {
+    "checkpoint_key": "fusion_moment_localization_head.BIGRU.weight_ih_l0",
+    "model_key": "moment_head.end_GRU.weight_ih_l0",
+    "checkpoint_shape": [
+      576,
+      384
+    ],
+    "model_shape": [
+      576,
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "fusion_moment_localization_head.BIGRU.weight_hh_l0",
+    "model_key": "moment_head.end_GRU.weight_hh_l0",
+    "checkpoint_shape": [
+      576,
+      192
+    ],
+    "model_shape": [
+      576,
+      192
+    ]
+  },
+  {
+    "checkpoint_key": "fusion_moment_localization_head.BIGRU.bias_ih_l0",
+    "model_key": "moment_head.end_GRU.bias_ih_l0",
+    "checkpoint_shape": [
+      576
+    ],
+    "model_shape": [
+      576
+    ]
+  },
+  {
+    "checkpoint_key": "fusion_moment_localization_head.BIGRU.bias_hh_l0",
+    "model_key": "moment_head.end_GRU.bias_hh_l0",
+    "checkpoint_shape": [
+      576
+    ],
+    "model_shape": [
+      576
+    ]
+  },
+  {
+    "checkpoint_key": "fusion_moment_localization_head.BIGRU.weight_ih_l0_reverse",
+    "model_key": "moment_head.end_GRU.weight_ih_l0_reverse",
+    "checkpoint_shape": [
+      576,
+      384
+    ],
+    "model_shape": [
+      576,
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "fusion_moment_localization_head.BIGRU.weight_hh_l0_reverse",
+    "model_key": "moment_head.end_GRU.weight_hh_l0_reverse",
+    "checkpoint_shape": [
+      576,
+      192
+    ],
+    "model_shape": [
+      576,
+      192
+    ]
+  },
+  {
+    "checkpoint_key": "fusion_moment_localization_head.BIGRU.bias_ih_l0_reverse",
+    "model_key": "moment_head.end_GRU.bias_ih_l0_reverse",
+    "checkpoint_shape": [
+      576
+    ],
+    "model_shape": [
+      576
+    ]
+  },
+  {
+    "checkpoint_key": "fusion_moment_localization_head.BIGRU.bias_hh_l0_reverse",
+    "model_key": "moment_head.end_GRU.bias_hh_l0_reverse",
+    "checkpoint_shape": [
+      576
+    ],
+    "model_shape": [
+      576
+    ]
+  },
+  {
+    "checkpoint_key": "fusion_moment_localization_head.BIGRU.weight_ih_l1",
+    "model_key": "moment_head.end_GRU.weight_ih_l1",
+    "checkpoint_shape": [
+      576,
+      384
+    ],
+    "model_shape": [
+      576,
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "fusion_moment_localization_head.BIGRU.weight_hh_l1",
+    "model_key": "moment_head.end_GRU.weight_hh_l1",
+    "checkpoint_shape": [
+      576,
+      192
+    ],
+    "model_shape": [
+      576,
+      192
+    ]
+  },
+  {
+    "checkpoint_key": "fusion_moment_localization_head.BIGRU.bias_ih_l1",
+    "model_key": "moment_head.end_GRU.bias_ih_l1",
+    "checkpoint_shape": [
+      576
+    ],
+    "model_shape": [
+      576
+    ]
+  },
+  {
+    "checkpoint_key": "fusion_moment_localization_head.BIGRU.bias_hh_l1",
+    "model_key": "moment_head.end_GRU.bias_hh_l1",
+    "checkpoint_shape": [
+      576
+    ],
+    "model_shape": [
+      576
+    ]
+  },
+  {
+    "checkpoint_key": "fusion_moment_localization_head.BIGRU.weight_ih_l1_reverse",
+    "model_key": "moment_head.end_GRU.weight_ih_l1_reverse",
+    "checkpoint_shape": [
+      576,
+      384
+    ],
+    "model_shape": [
+      576,
+      384
+    ]
+  },
+  {
+    "checkpoint_key": "fusion_moment_localization_head.BIGRU.weight_hh_l1_reverse",
+    "model_key": "moment_head.end_GRU.weight_hh_l1_reverse",
+    "checkpoint_shape": [
+      576,
+      192
+    ],
+    "model_shape": [
+      576,
+      192
+    ]
+  },
+  {
+    "checkpoint_key": "fusion_moment_localization_head.BIGRU.bias_ih_l1_reverse",
+    "model_key": "moment_head.end_GRU.bias_ih_l1_reverse",
+    "checkpoint_shape": [
+      576
+    ],
+    "model_shape": [
+      576
+    ]
+  },
+  {
+    "checkpoint_key": "fusion_moment_localization_head.BIGRU.bias_hh_l1_reverse",
+    "model_key": "moment_head.end_GRU.bias_hh_l1_reverse",
+    "checkpoint_shape": [
+      576
+    ],
+    "model_shape": [
+      576
+    ]
+  },
+  {
+    "checkpoint_key": "fusion_moment_localization_head.begin_score_modeling.clip_score_predictor.0.weight",
+    "model_key": "moment_head.begin_score.clip_score_predictor.0.weight",
+    "checkpoint_shape": [
+      128,
+      384,
+      5
+    ],
+    "model_shape": [
+      128,
+      384,
+      5
+    ]
+  },
+  {
+    "checkpoint_key": "fusion_moment_localization_head.begin_score_modeling.clip_score_predictor.2.weight",
+    "model_key": "moment_head.begin_score.clip_score_predictor.2.weight",
+    "checkpoint_shape": [
+      1,
+      128,
+      1
+    ],
+    "model_shape": [
+      1,
+      128,
+      1
+    ]
+  },
+  {
+    "checkpoint_key": "fusion_moment_localization_head.begin_score_modeling.clip_score_predictor.2.bias",
+    "model_key": "moment_head.begin_score.clip_score_predictor.2.bias",
+    "checkpoint_shape": [
+      1
+    ],
+    "model_shape": [
+      1
+    ]
+  },
+  {
+    "checkpoint_key": "fusion_moment_localization_head.end_score_modeling.clip_score_predictor.0.weight",
+    "model_key": "moment_head.end_score.clip_score_predictor.0.weight",
+    "checkpoint_shape": [
+      128,
+      384,
+      5
+    ],
+    "model_shape": [
+      128,
+      384,
+      5
+    ]
+  },
+  {
+    "checkpoint_key": "fusion_moment_localization_head.end_score_modeling.clip_score_predictor.2.weight",
+    "model_key": "moment_head.end_score.clip_score_predictor.2.weight",
+    "checkpoint_shape": [
+      1,
+      128,
+      1
+    ],
+    "model_shape": [
+      1,
+      128,
+      1
+    ]
+  },
+  {
+    "checkpoint_key": "fusion_moment_localization_head.end_score_modeling.clip_score_predictor.2.bias",
+    "model_key": "moment_head.end_score.clip_score_predictor.2.bias",
+    "checkpoint_shape": [
+      1
+    ],
+    "model_shape": [
+      1
+    ]
+  }
+]

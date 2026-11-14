@@ -1,0 +1,32 @@
+{
+  "attempt": 1,
+  "name": "temporal association with opportunity correction",
+  "status": "registered before method development results",
+  "hypothesis": "A same-length scan reference over independently shifted predicate traces improves VCMR beyond whole-query CLIP and raw joint-support controls.",
+  "fixed": {
+    "tau": 0.5,
+    "standard_deviation_floor": 0.01,
+    "surrogates": 16,
+    "residual_clip": 3,
+    "seed": 2027,
+    "frame_seconds": 1.5,
+    "minimum_feature_coverage": 0.8,
+    "minimum_predicate_std": 0.001,
+    "phrase_cosine_dedup": 0.95
+  },
+  "controls": [
+    "DeMUL checkpoint-compatible reconstruction",
+    "same baseline plus whole-query CLIP",
+    "same baseline plus raw simultaneous conjunction"
+  ],
+  "selection": "dev_select only; beta on whole-query control, then separate gamma grids on raw conjunction and corrected conjunction; tie-break lower complexity after R1@.7",
+  "confirmation": "dev_confirm; no parameter changes on this cohort. Primary R1@.5, paired video-cluster bootstrap2000; report R1@.7 and full ranks.",
+  "success": "Positive paired95% confidence interval against the strongest control selected on dev_select, and at least0.25percentagepoint gain. Otherwise no demonstrated benefit under this experiment; negative upper interval is evidence of harm.",
+  "limitations": [
+    "backbone pretrained on original training set, including development episodes",
+    "global CLIP features cannot verify actor identity",
+    "circular stationarity surrogate assumption",
+    "retained development cohort excludes unavailable train HERO ranks; final officialval remains complete"
+  ],
+  "max_substantive_attempts": 3
+}

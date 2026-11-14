@@ -1,0 +1,32 @@
+{
+  "attempt": 2,
+  "name": "local conditional temporal surrogate",
+  "registered_before_attempt2_results": true,
+  "motivating_evidence": "Attempt1 zero gain versus joint-support control; reference constant within video-duration and only14 of4991 top1 changed.",
+  "hypothesis": "Local excess conjunction beyond phase-shifted residuals, conditional on holistic query evidence, supplies additional useful ranking evidence.",
+  "formula": "z=standardized predicate traces; h=standardized holistic trace; fitted_p=(z_p dot h)/(h dot h+eps)*h; r_p=z_p-fitted_p; delta(I)=mean_I[C(z)-mean_b C(fitted+independent_roll(r,b))].",
+  "fixed": {
+    "tau": 0.5,
+    "surrogates": 16,
+    "std_floor": 0.01,
+    "clip": 3,
+    "seed": 2027,
+    "gate": "same positive simultaneous>=2distinctphrases as attempt1"
+  },
+  "controls": [
+    "previous strongest control",
+    "whole-query inside/outside contrast (established OIC; not claimed new)",
+    "unconditional local surrogate excess",
+    "shared-slope linear recalibration with video-specific residual reference"
+  ],
+  "selection": "previous strongest-control coefficients frozen; one nonnegative residual weight per variant on dev_select only",
+  "success": "atleast.25pp R1@.5 gain and positive paired95CI against strongest select-chosen control on dev_confirm",
+  "limitations": [
+    "conditional regression is an established statistical technique; exact mechanism novelty unproven",
+    "conditioning on full-query similarity may remove true relevant association",
+    "global CLIP cannot verify actors",
+    "confirmation reused adaptively; eventual finalval required",
+    "circular residual stationarity unverified"
+  ],
+  "max_substantive_attempts": 3
+}

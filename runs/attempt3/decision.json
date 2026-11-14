@@ -1,0 +1,19 @@
+{
+  "attempt": 3,
+  "decision": "failed_prespecified_advantage_gate",
+  "evidence": {
+    "metric": "R1@0.5",
+    "delta_b_minus_a_pp": 0.0,
+    "ci95_pp": [
+      0.0,
+      0.0
+    ],
+    "probability_delta_nonpositive": 1.0,
+    "n_queries": 4991,
+    "n_video_clusters": 1002,
+    "iterations": 2000,
+    "seed": 2027,
+    "procedure": "paired percentile bootstrap, video-cluster sampling, query-weighted recall"
+  },
+  "next": "Stop substantive development after three attempts; evaluate all frozen variants on final validation."
+}

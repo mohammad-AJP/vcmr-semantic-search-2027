@@ -1,0 +1,274 @@
+{
+  "inspection_date": "2026-11-13",
+  "source_root": "/home/mohammad/VisualSearch",
+  "inspection_only": true,
+  "datasets_copied": false,
+  "raw_video_scan_extensions": [
+    ".mp4",
+    ".mkv",
+    ".avi",
+    ".webm",
+    ".mov",
+    ".mpeg",
+    ".mpg",
+    ".m4v"
+  ],
+  "datasets": {
+    "charades": {
+      "source_directory": "/home/mohammad/VisualSearch/charades",
+      "prep_report_path": "/home/mohammad/VisualSearch/charades/gprvr/prep_report.json",
+      "prep_report": {
+        "dataset": "charades",
+        "collection": "charades",
+        "visual_feature": "i3d_rgb_lgi",
+        "splits": {
+          "train": {
+            "exact": 12408,
+            "total": 12408,
+            "matched_pct": 100.0,
+            "n_videos": 5338,
+            "raw_frames": {
+              "min": 16.0,
+              "median": 91.5,
+              "max": 606.0
+            },
+            "raw_frames_per_sec": {
+              "p5": 2.9669075694180296,
+              "median": 2.9858849077090115,
+              "p95": 3.0
+            },
+            "corr_nframes_duration": 0.9995202117126372,
+            "moment_fraction": {
+              "mean": 0.2685595106961947,
+              "median": 0.25130474245518497
+            }
+          },
+          "val": {
+            "exact": 3720,
+            "total": 3720,
+            "matched_pct": 100.0,
+            "n_videos": 1334,
+            "raw_frames": {
+              "min": 21.0,
+              "median": 92.0,
+              "max": 227.0
+            },
+            "raw_frames_per_sec": {
+              "p5": 2.9622063329928503,
+              "median": 2.985499004833665,
+              "p95": 3.0
+            },
+            "corr_nframes_duration": 0.9998120849466794,
+            "moment_fraction": {
+              "mean": 0.2713043814146116,
+              "median": 0.25610694497241127
+            }
+          },
+          "test": {
+            "exact": 3720,
+            "total": 3720,
+            "matched_pct": 100.0,
+            "n_videos": 1334,
+            "raw_frames": {
+              "min": 21.0,
+              "median": 92.0,
+              "max": 227.0
+            },
+            "raw_frames_per_sec": {
+              "p5": 2.9622063329928503,
+              "median": 2.985499004833665,
+              "p95": 3.0
+            },
+            "corr_nframes_duration": 0.9998120849466794,
+            "moment_fraction": {
+              "mean": 0.2713043814146116,
+              "median": 0.25610694497241127
+            }
+          }
+        },
+        "feature_dim": 1024
+      },
+      "caption_val_test_byte_identical": true,
+      "val_caption_sha256": "f467d4a19b1b6f6ea2edf868c210141f810841113b605a61d3655244c01aaec4",
+      "test_caption_sha256": "f467d4a19b1b6f6ea2edf868c210141f810841113b605a61d3655244c01aaec4"
+    },
+    "activitynet": {
+      "source_directory": "/home/mohammad/VisualSearch/activitynet",
+      "prep_report_path": "/home/mohammad/VisualSearch/activitynet/gprvr/prep_report.json",
+      "prep_report": {
+        "dataset": "activitynet",
+        "collection": "activitynet",
+        "visual_feature": "i3d",
+        "splits": {
+          "train": {
+            "exact": 33717,
+            "fuzzy": 4,
+            "degenerate_moment": 4,
+            "total": 33721,
+            "matched_pct": 100.0,
+            "n_videos": 9043,
+            "raw_frames": {
+              "min": 3.0,
+              "median": 194.0,
+              "max": 1415.0
+            },
+            "raw_frames_per_sec": {
+              "p5": 1.065401632094393,
+              "median": 1.873824203252184,
+              "p95": 1.8891977037379528
+            },
+            "corr_nframes_duration": 0.966074975388727,
+            "moment_fraction": {
+              "mean": 0.306712103092548,
+              "median": 0.2250135062128579
+            }
+          },
+          "val": {
+            "exact": 15736,
+            "fuzzy": 17,
+            "total": 15753,
+            "matched_pct": 100.0,
+            "n_videos": 4430,
+            "raw_frames": {
+              "min": 2.0,
+              "median": 195.0,
+              "max": 1165.0
+            },
+            "raw_frames_per_sec": {
+              "p5": 0.9797558861765132,
+              "median": 1.8739400574633858,
+              "p95": 1.8900179447267387
+            },
+            "corr_nframes_duration": 0.965428319728015,
+            "moment_fraction": {
+              "mean": 0.3229895994323018,
+              "median": 0.2499749724697167
+            }
+          },
+          "test": {
+            "exact": 15736,
+            "fuzzy": 17,
+            "total": 15753,
+            "matched_pct": 100.0,
+            "n_videos": 4430,
+            "raw_frames": {
+              "min": 2.0,
+              "median": 195.0,
+              "max": 1165.0
+            },
+            "raw_frames_per_sec": {
+              "p5": 0.9797558861765132,
+              "median": 1.8739400574633858,
+              "p95": 1.8900179447267387
+            },
+            "corr_nframes_duration": 0.965428319728015,
+            "moment_fraction": {
+              "mean": 0.3229895994323018,
+              "median": 0.2499749724697167
+            }
+          }
+        },
+        "feature_dim": 1024
+      },
+      "caption_val_test_byte_identical": true,
+      "val_caption_sha256": "28ae704d85bb353bc0cecbef555284d4b93abbc990caf60a1c8f4bdd4b1a2d29",
+      "test_caption_sha256": "28ae704d85bb353bc0cecbef555284d4b93abbc990caf60a1c8f4bdd4b1a2d29"
+    },
+    "tvr": {
+      "source_directory": "/home/mohammad/VisualSearch/tvr",
+      "prep_report_path": "/home/mohammad/VisualSearch/tvr/gprvr/prep_report.json",
+      "prep_report": {
+        "dataset": "tvr",
+        "collection": "tvr",
+        "visual_feature": "i3d_resnet",
+        "splits": {
+          "train": {
+            "exact": 87174,
+            "total": 87174,
+            "matched_pct": 100.0,
+            "n_videos": 17435,
+            "raw_frames": {
+              "min": 2.0,
+              "median": 51.0,
+              "max": 181.0
+            },
+            "raw_frames_per_sec": {
+              "p5": 0.6606474344857961,
+              "median": 0.6694970607446113,
+              "p95": 0.677621548365238
+            },
+            "corr_nframes_duration": 0.9927252425240648,
+            "moment_fraction": {
+              "mean": 0.12163494959499288,
+              "median": 0.06997693068219268
+            }
+          },
+          "val": {
+            "exact": 10895,
+            "total": 10895,
+            "matched_pct": 100.0,
+            "n_videos": 2179,
+            "raw_frames": {
+              "min": 6.0,
+              "median": 46.0,
+              "max": 123.0
+            },
+            "raw_frames_per_sec": {
+              "p5": 0.6610704994572041,
+              "median": 0.669814428461623,
+              "p95": 0.677621548365238
+            },
+            "corr_nframes_duration": 0.9907158825803579,
+            "moment_fraction": {
+              "mean": 0.12346238979747638,
+              "median": 0.06998691833302181
+            }
+          },
+          "test": {
+            "exact": 10895,
+            "total": 10895,
+            "matched_pct": 100.0,
+            "n_videos": 2179,
+            "raw_frames": {
+              "min": 6.0,
+              "median": 46.0,
+              "max": 123.0
+            },
+            "raw_frames_per_sec": {
+              "p5": 0.6610704994572041,
+              "median": 0.669814428461623,
+              "p95": 0.677621548365238
+            },
+            "corr_nframes_duration": 0.9907158825803579,
+            "moment_fraction": {
+              "mean": 0.12346238979747638,
+              "median": 0.06998691833302181
+            }
+          }
+        },
+        "feature_dim": 3072
+      },
+      "caption_val_test_byte_identical": true,
+      "val_caption_sha256": "ae9a60f6fc7581a3295e366d9a91c21b481d4411fb94b68422c09dc1751f3ef1",
+      "test_caption_sha256": "ae9a60f6fc7581a3295e366d9a91c21b481d4411fb94b68422c09dc1751f3ef1"
+    }
+  },
+  "raw_video_count_under_source_root": 0,
+  "top_level_data_directories": [
+    "_zips",
+    "activitynet",
+    "activitynet_smoke",
+    "annotations",
+    "charades",
+    "charades_smoke",
+    "tvr",
+    "tvr_smoke"
+  ],
+  "readiness": {
+    "feature_based_pilot": true,
+    "object_track_experiment_inputs_complete": false,
+    "official_vcmr_protocol_reconciled": false,
+    "independent_test_split_confirmed": false,
+    "note": "No FIG directories found. Feature package availability is not complete validation of IDs, timing, modalities or official corpus coverage."
+  }
+}

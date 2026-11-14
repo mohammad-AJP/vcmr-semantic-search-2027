@@ -1,0 +1,20 @@
+{
+  "dev_select": {
+    "queries": 5022,
+    "eligible_queries": 1664,
+    "raw_candidate_oracle_R1@0.5": 77.1604938271605,
+    "raw_candidate_oracle_R1@0.7": 68.47869374751096,
+    "median_correlation_conjunction_vs_surplus": 0.7830272572809638,
+    "changed_top1_conjunction_vs_surplus": 18,
+    "within_video_duration_reference_std_median": 1.4062662145875038e-08
+  },
+  "dev_confirm": {
+    "queries": 4991,
+    "eligible_queries": 1623,
+    "raw_candidate_oracle_R1@0.5": 76.83830895612101,
+    "raw_candidate_oracle_R1@0.7": 67.82207974353837,
+    "median_correlation_conjunction_vs_surplus": 0.7818562800506722,
+    "changed_top1_conjunction_vs_surplus": 14,
+    "within_video_duration_reference_std_median": 1.4048949559253288e-08
+  }
+}

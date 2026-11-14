@@ -1,0 +1,31 @@
+{
+  "queries": 10895,
+  "eligible_queries": 3852,
+  "eligible_video_pairs": 24309,
+  "eligible_moments": 2311200,
+  "columns": [
+    "base_log",
+    "whole_query",
+    "conjunction",
+    "surplus",
+    "whole_local_contrast",
+    "unconditional_local_excess",
+    "conditional_local_excess",
+    "shared_slope_control",
+    "neighborhood_unconditional_control",
+    "neighborhood_conditional_excess",
+    "neighborhood_shared_slope_control"
+  ],
+  "surrogates": 16,
+  "tau": 0.5,
+  "std_floor": 0.01,
+  "clip": 3,
+  "seed": 2027,
+  "seed_key": "2027:query_id:video_id:start_frame:end_frame",
+  "neighborhood": "[start-duration,end+duration] clipped to observed support",
+  "conditioning_fit": "unchanged video-level fit from conditional.local_null_signals",
+  "timestamp_coverage_min": 0.8,
+  "seconds_per_frame": 1.5,
+  "reads_labels": false,
+  "seconds": 501.3082139492035
+}

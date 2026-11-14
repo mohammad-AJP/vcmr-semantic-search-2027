@@ -1,0 +1,322 @@
+{
+  "attempt": 1,
+  "columns": [
+    "base_log",
+    "whole_query",
+    "conjunction",
+    "surplus"
+  ],
+  "configs": [
+    {
+      "name": "demul",
+      "coefficients": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "select_R1@0.5": 43.64794902429311,
+      "select_R1@0.7": 27.279968140183193
+    },
+    {
+      "name": "whole_query_control",
+      "coefficients": [
+        1,
+        0.25,
+        0,
+        0
+      ],
+      "select_R1@0.5": 43.76742333731581,
+      "select_R1@0.7": 27.24014336917563
+    },
+    {
+      "name": "joint_support_control",
+      "coefficients": [
+        1,
+        0.25,
+        0.0625,
+        0
+      ],
+      "select_R1@0.5": 43.78733572281959,
+      "select_R1@0.7": 27.260055754679414
+    },
+    {
+      "name": "attempt1_association_reference",
+      "coefficients": [
+        1,
+        0.25,
+        0,
+        0.0625
+      ],
+      "select_R1@0.5": 43.76742333731581,
+      "select_R1@0.7": 27.260055754679414
+    }
+  ],
+  "strongest_control": "joint_support_control",
+  "selection_queries": 5022,
+  "eligible_queries": 1664,
+  "selection": "R1@.5 then R1@.7 then smaller residual; training-derived dev_select only",
+  "candidate": "fixed parser/frozen CLIP; reference subtracts maximum over all same-length shifted windows",
+  "grid": {
+    "whole_query": [
+      {
+        "name": "whole_query_control",
+        "coefficients": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "select_R1@0.5": 43.64794902429311,
+        "select_R1@0.7": 27.279968140183193
+      },
+      {
+        "name": "whole_query_control",
+        "coefficients": [
+          1,
+          0.125,
+          0,
+          0
+        ],
+        "select_R1@0.5": 43.727598566308245,
+        "select_R1@0.7": 27.299880525686977
+      },
+      {
+        "name": "whole_query_control",
+        "coefficients": [
+          1,
+          0.25,
+          0,
+          0
+        ],
+        "select_R1@0.5": 43.76742333731581,
+        "select_R1@0.7": 27.24014336917563
+      },
+      {
+        "name": "whole_query_control",
+        "coefficients": [
+          1,
+          0.5,
+          0,
+          0
+        ],
+        "select_R1@0.5": 43.74751095181203,
+        "select_R1@0.7": 27.24014336917563
+      },
+      {
+        "name": "whole_query_control",
+        "coefficients": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "select_R1@0.5": 43.56829948227798,
+        "select_R1@0.7": 26.901632815611308
+      },
+      {
+        "name": "whole_query_control",
+        "coefficients": [
+          1,
+          2,
+          0,
+          0
+        ],
+        "select_R1@0.5": 43.54838709677419,
+        "select_R1@0.7": 27.160493827160494
+      },
+      {
+        "name": "whole_query_control",
+        "coefficients": [
+          1,
+          4,
+          0,
+          0
+        ],
+        "select_R1@0.5": 41.69653524492234,
+        "select_R1@0.7": 25.647152528872958
+      }
+    ],
+    "joint_support": [
+      {
+        "name": "joint_support_control",
+        "coefficients": [
+          1,
+          0.25,
+          0,
+          0
+        ],
+        "select_R1@0.5": 43.76742333731581,
+        "select_R1@0.7": 27.24014336917563
+      },
+      {
+        "name": "joint_support_control",
+        "coefficients": [
+          1,
+          0.25,
+          0.03125,
+          0
+        ],
+        "select_R1@0.5": 43.76742333731581,
+        "select_R1@0.7": 27.24014336917563
+      },
+      {
+        "name": "joint_support_control",
+        "coefficients": [
+          1,
+          0.25,
+          0.0625,
+          0
+        ],
+        "select_R1@0.5": 43.78733572281959,
+        "select_R1@0.7": 27.260055754679414
+      },
+      {
+        "name": "joint_support_control",
+        "coefficients": [
+          1,
+          0.25,
+          0.125,
+          0
+        ],
+        "select_R1@0.5": 43.78733572281959,
+        "select_R1@0.7": 27.260055754679414
+      },
+      {
+        "name": "joint_support_control",
+        "coefficients": [
+          1,
+          0.25,
+          0.25,
+          0
+        ],
+        "select_R1@0.5": 43.727598566308245,
+        "select_R1@0.7": 27.279968140183193
+      },
+      {
+        "name": "joint_support_control",
+        "coefficients": [
+          1,
+          0.25,
+          0.5,
+          0
+        ],
+        "select_R1@0.5": 43.64794902429311,
+        "select_R1@0.7": 27.180406212664277
+      },
+      {
+        "name": "joint_support_control",
+        "coefficients": [
+          1,
+          0.25,
+          1,
+          0
+        ],
+        "select_R1@0.5": 43.58821186778176,
+        "select_R1@0.7": 27.220230983671843
+      },
+      {
+        "name": "joint_support_control",
+        "coefficients": [
+          1,
+          0.25,
+          2,
+          0
+        ],
+        "select_R1@0.5": 43.269613699721226,
+        "select_R1@0.7": 27.021107128634007
+      }
+    ],
+    "association_reference": [
+      {
+        "name": "attempt1_association_reference",
+        "coefficients": [
+          1,
+          0.25,
+          0,
+          0
+        ],
+        "select_R1@0.5": 43.76742333731581,
+        "select_R1@0.7": 27.24014336917563
+      },
+      {
+        "name": "attempt1_association_reference",
+        "coefficients": [
+          1,
+          0.25,
+          0,
+          0.03125
+        ],
+        "select_R1@0.5": 43.74751095181203,
+        "select_R1@0.7": 27.24014336917563
+      },
+      {
+        "name": "attempt1_association_reference",
+        "coefficients": [
+          1,
+          0.25,
+          0,
+          0.0625
+        ],
+        "select_R1@0.5": 43.76742333731581,
+        "select_R1@0.7": 27.260055754679414
+      },
+      {
+        "name": "attempt1_association_reference",
+        "coefficients": [
+          1,
+          0.25,
+          0,
+          0.125
+        ],
+        "select_R1@0.5": 43.727598566308245,
+        "select_R1@0.7": 27.260055754679414
+      },
+      {
+        "name": "attempt1_association_reference",
+        "coefficients": [
+          1,
+          0.25,
+          0,
+          0.25
+        ],
+        "select_R1@0.5": 43.56829948227798,
+        "select_R1@0.7": 27.24014336917563
+      },
+      {
+        "name": "attempt1_association_reference",
+        "coefficients": [
+          1,
+          0.25,
+          0,
+          0.5
+        ],
+        "select_R1@0.5": 43.608124253285546,
+        "select_R1@0.7": 27.24014336917563
+      },
+      {
+        "name": "attempt1_association_reference",
+        "coefficients": [
+          1,
+          0.25,
+          0,
+          1
+        ],
+        "select_R1@0.5": 43.34926324173636,
+        "select_R1@0.7": 27.12066905615293
+      },
+      {
+        "name": "attempt1_association_reference",
+        "coefficients": [
+          1,
+          0.25,
+          0,
+          2
+        ],
+        "select_R1@0.5": 42.93110314615691,
+        "select_R1@0.7": 26.78215850258861
+      }
+    ]
+  },
+  "seconds": 3.9917845726013184
+}

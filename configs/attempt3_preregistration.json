@@ -1,0 +1,35 @@
+{
+  "attempt": 3,
+  "name": "candidate-neighborhood conditional temporal surrogate",
+  "registered_before_attempt3_results": true,
+  "motivating_evidence": "Attempt2 selection assigned zero weight to global conditional reference; confirmation improvement over strongest select-chosen control only.020pp with CI including0. Shared-slope algebra predicts much of globalconditional correction reduces toexisting scorecalibration.",
+  "hypothesis": "The distribution of semantic residuals within a candidate-dependent neighborhood supplies location-specific compatibility evidence beyond global conditional correction and local unconditional/linear controls.",
+  "formula": "For I=[s,e),L=e-s,B=[max(0,s-L),min(T,e+L)), keep full-video fitted_p(t)=b_p*h(t), independently circular-shift residuals within B, compare observed conjunction in I with reference conjunction evaluated at I.",
+  "fixed": {
+    "tau": 0.5,
+    "surrogates": 16,
+    "std_floor": 0.01,
+    "clip": 3,
+    "seed": 2027,
+    "neighborhood_flank_width": "one candidate length on each side, clipped",
+    "gate": "same asattempt1/2",
+    "candidate_minimum_length_frames": 2
+  },
+  "controls": [
+    "all frozen predecessor variants",
+    "candidate-neighborhood unconditional null",
+    "candidate-neighborhood shared-slope recalibration"
+  ],
+  "selection": "previous strongest control frozen; add one residual weight fromsame8value grid ondev_select only",
+  "success": "atleast.25pp R1@.5 gain and positive paired95CI against strongest select-chosen control ondev_confirm",
+  "limitations": [
+    "third use ofconfirmation is exploratory; finalvalidation required",
+    "global regression may remove relevant signal",
+    "local residual stationarity unverified",
+    "16surrogates introduce MonteCarlo variation",
+    "commonactor binding unavailable",
+    "noveltyunverified; permutation statistics and OIC are established and credited"
+  ],
+  "max_substantive_attempts": 3,
+  "after_this_attempt": "No fourthmethod. Freeze all variants and evaluate officialval once; report negative results if gates fail."
+}

@@ -1,0 +1,43 @@
+{
+  "method": "DeMUL checkpoint-compatible reconstruction",
+  "status": "complete",
+  "checkpoint_sha256": "723636f3342c5177248a54d7112d4731aaba669133404cf87975875e21615f39",
+  "checkpoint_epoch": 11,
+  "upstream_commit": "96a332fb3ada5ebc9a367944f729f55fb42a7ded",
+  "protocol": {
+    "topk_videos": 10,
+    "min_pred_l": 1,
+    "max_pred_l_exclusive": 24,
+    "max_before_nms": 600,
+    "nms_threshold": 0.7,
+    "clip_length": 1.5,
+    "max_ctx_len": 100,
+    "max_desc_len": 30,
+    "gt_candidates_injected": false,
+    "scoring": "shared_start_softmax * shared_end_softmax * normalized_HERO_prior_squared"
+  },
+  "queries": 5022,
+  "torch_version": "2.14.1+cu130",
+  "arguments": {
+    "feature_root": "/home/mohammad/Documents/vcmr-semantic-search-2027/data/tvr/tvr_feature_release",
+    "checkpoint": "/home/mohammad/Documents/vcmr-semantic-search-2027/checkpoints/demul_model.ckpt",
+    "output": "runs/demul_dev_select",
+    "split": "train",
+    "annotations": "data/tvr/splits/demul_dev_select.jsonl",
+    "query_ids": null,
+    "rankings": null,
+    "topk": 10,
+    "batch_size": 8,
+    "workers": 2,
+    "threads": 4,
+    "limit": null,
+    "device": "cuda:0",
+    "no_evaluate": false
+  },
+  "annotation_sha256": "2f6c9a8aa3b079c866b1210460fde3b3328724a1ae0e5f8cd459fc3203dec704",
+  "ranking_path": "/home/mohammad/Documents/vcmr-semantic-search-2027/data/tvr/tvr_feature_release/data/train_select100_top2000",
+  "reconstruction_limit": "Parameter mapping is bijective; historical source computation is not available, so published numeric equivalence must be measured.",
+  "elapsed_seconds": 77.40400791168213,
+  "queries_done": 5022,
+  "metrics_evaluated": true
+}

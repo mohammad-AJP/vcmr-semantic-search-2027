@@ -1,0 +1,18 @@
+{
+  "checked_files": {
+    "README.md": "aa1f1c3ebdf95848609c247253744cf05cfbbbf36418bfff18f971d220d59f60",
+    "gprvr/eval/grounding.py": "19a349dc6ff7a4c00e8f904784872fc03b07c357edd57215cbe5334982bcda9c",
+    "gprvr/eval/dump.py": "62535356c27d486f5931afc7325326fa298b1bc39daa65cf976d0312eba9a584",
+    "scripts/prepare_data.py": "a8e01689b49a96878ed40ed672f9d89e3894b4774b2b06a6cec4576d108a9b75",
+    "configs/datasets/tvr.yaml": "666a7f30831c078c3aa8879a9b3be2a8ad59e36243dfd8e8e2d39fa4ccbc1f12"
+  },
+  "reference": {
+    "README.md": "aa1f1c3ebdf95848609c247253744cf05cfbbbf36418bfff18f971d220d59f60",
+    "gprvr/eval/grounding.py": "19a349dc6ff7a4c00e8f904784872fc03b07c357edd57215cbe5334982bcda9c",
+    "gprvr/eval/dump.py": "62535356c27d486f5931afc7325326fa298b1bc39daa65cf976d0312eba9a584",
+    "scripts/prepare_data.py": "a8e01689b49a96878ed40ed672f9d89e3894b4774b2b06a6cec4576d108a9b75",
+    "configs/datasets/tvr.yaml": "666a7f30831c078c3aa8879a9b3be2a8ad59e36243dfd8e8e2d39fa4ccbc1f12"
+  },
+  "all_selected_files_unchanged": true,
+  "scope": "Selected original source files; not a whole-directory checksum."
+}

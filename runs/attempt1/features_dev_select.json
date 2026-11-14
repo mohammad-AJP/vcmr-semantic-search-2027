@@ -1,0 +1,20 @@
+{
+  "queries": 5022,
+  "eligible_queries": 1664,
+  "eligible_video_pairs": 11931,
+  "unsupported_video_pairs": 0,
+  "rows": 3013200,
+  "surrogates": 16,
+  "tau": 0.5,
+  "timing": "nominal 1.5 seconds per CLIP frame; no guessed actor tracks",
+  "columns": [
+    "base_log",
+    "whole_query",
+    "conjunction",
+    "surplus"
+  ],
+  "gate": "simultaneous positive query; at least two deduplicated nonholistic phrases; nonflat traces",
+  "null": "independent circular shifts; same-length all-window maximum; mean across surrogates",
+  "seconds": 25.23518419265747,
+  "cache": "/home/mohammad/Documents/vcmr-semantic-search-2027/runs/attempt1/features_dev_select.h5"
+}

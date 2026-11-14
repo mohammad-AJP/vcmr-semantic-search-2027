@@ -1,0 +1,21 @@
+{
+  "attempt": 2,
+  "decision": "failed_prespecified_advantage_gate",
+  "selected_new_feature_weight": 0,
+  "evidence": {
+    "metric": "R1@0.5",
+    "delta_b_minus_a_pp": 0.02003606491685033,
+    "ci95_pp": [
+      0.0,
+      0.060156406657309
+    ],
+    "probability_delta_nonpositive": 0.3775,
+    "n_queries": 4991,
+    "n_video_clusters": 1002,
+    "iterations": 2000,
+    "seed": 2027,
+    "procedure": "paired percentile bootstrap, video-cluster sampling, query-weighted recall"
+  },
+  "interpretation": "Selector omitted proposed conditional feature; no demonstrated additional information for ranking. Stop this version.",
+  "next": "One final candidate-local reference revision, then stop substantive development."
+}

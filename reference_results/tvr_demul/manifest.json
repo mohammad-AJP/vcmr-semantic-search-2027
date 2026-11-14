@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "dataset": "TVR",
+  "split": "official validation",
+  "n_queries": 10895,
+  "corpus_videos": 2179,
+  "method": "DeMUL checkpoint-compatible reconstruction",
+  "purpose": "Reuse existing baseline evidence; no model training or inference was run to create this package.",
+  "prediction_schema": {
+    "desc_id": "string query ID",
+    "predictions": "list of [video_name, start_seconds, end_seconds, score]"
+  },
+  "limits": [
+    "These are final post-NMS predictions, not all raw candidate intervals.",
+    "Final-evaluation metrics belong to these exact files; do not substitute the earlier wrapper metrics.",
+    "This is a historical reference and not a claim of current SOTA.",
+    "Training-derived development predictions are not included in this compact bundle."
+  ],
+  "files": [
+    {
+      "path": "predictions_100_before_nms.jsonl.gz",
+      "source": "runs/final_validation/100_before_nms/demul.jsonl",
+      "bytes": 4993087,
+      "sha256": "715ede0d48e1ac0389b726cf7097b0ec08ce31bf443202d377f57e650314d92d",
+      "uncompressed_sha256": "f77c36e339d2232cdb2b36f3cf84da2575ade1823b3520abd8de9e0e3c3e80d1",
+      "queries": 10895,
+      "max_before_nms": 100,
+      "nms_threshold": 0.7,
+      "max_output_moments": 100
+    },
+    {
+      "path": "metrics_100_before_nms.json",
+      "source": "runs/final_validation/100_before_nms.json#/results/demul/metrics",
+      "bytes": 1023,
+      "sha256": "aa90a778a1773a7c6d1ed34752616a03f2a268b275af56c05a71157c12af2ba0"
+    },
+    {
+      "path": "predictions_600_before_nms.jsonl.gz",
+      "source": "runs/final_validation/600_before_nms/demul.jsonl",
+      "bytes": 15218980,
+      "sha256": "5fb16eb91d82c8a477e25936028ed6cc4f3ebb7aea49b95814fa23b924d640e2",
+      "uncompressed_sha256": "f5c597ec624c64bbf8b04cae290231b3e5cb79b71f4299c59abe7815fd856b2b",
+      "queries": 10895,
+      "max_before_nms": 600,
+      "nms_threshold": 0.7,
+      "max_output_moments": 100
+    },
+    {
+      "path": "metrics_600_before_nms.json",
+      "source": "runs/final_validation/600_before_nms.json#/results/demul/metrics",
+      "bytes": 1020,
+      "sha256": "a48349634eced896ac1f716809fa25ee68bc0c915419aa20eab13cbffb40c7fe"
+    },
+    {
+      "path": "original_run_manifest.json",
+      "source": "runs/demul_val/run_manifest.json",
+      "bytes": 1633,
+      "sha256": "2346156f807085fc87b5379a7ce3b8a501ee9adb0da532dc9ef09e7215538ab1"
+    },
+    {
+      "path": "original_wrapper_and_author_metrics.json",
+      "source": "runs/demul_val/reproduction_comparison.json",
+      "bytes": 1716,
+      "sha256": "e9592dc181c0fd8c16f3b4a4b6d083f4e5c1af206282b731fa6732165750b8e7"
+    },
+    {
+      "path": "video2idx.json",
+      "source": "runs/demul_val/video2idx.json",
+      "bytes": 83718,
+      "sha256": "8497b48110b237b3154215cfe50a5960ca795f8eca0db01e2a951e9efd7237b9"
+    },
+    {
+      "path": "dataset_protocol.json",
+      "source": "manifests/tvr_protocol.json",
+      "bytes": 9670,
+      "sha256": "1c1d8716fc0fa1f5e2a7e99f86ed41f1bca0723f6729d9e7f8dfc77f634b40ae"
+    }
+  ],
+  "evaluation_sources": [
+    {
+      "path": "src/vcmr/evaluation.py",
+      "sha256": "08617f435c70e8e40ae7af65eeab0c6cdfb95959548e213ba2c564da79cf8a53"
+    },
+    {
+      "path": "src/vcmr/ranking.py",
+      "sha256": "4c1776d4254980dd2400f42ca953d916ffe16083329171833a5b9c6687c1dc3e"
+    },
+    {
+      "path": "scripts/final_evaluate.py",
+      "sha256": "48bc28b5e5eae873338707611a50a8cc1ff254fb725834772c30df4ddbe0e0d9"
+    }
+  ]
+}

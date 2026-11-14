@@ -1,0 +1,7 @@
+channels:
+  - conda-forge
+pkgs_dirs:
+  - /home/mohammad/Documents/vcmr-semantic-search-2027/.cache/conda
+envs_dirs:
+  - /home/mohammad/Documents/vcmr-semantic-search-2027/envs
+auto_activate_base: false

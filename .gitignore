@@ -1,0 +1,62 @@
+# Downloaded data, environments, models, and third-party checkouts
+/data/
+/downloads/
+/envs/
+/tools/
+/checkpoints/
+/external/
+/indexes/
+
+# Caches, temporary files, and machine-local execution state
+/.cache/
+/tmp/
+/logs/
+/runs/background/
+/runs/demul_smoke/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+*.log
+*.pid
+*.lock
+*.partial
+*.part
+.DS_Store
+
+# Large features, tensors, weights, and dataset archives
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.mp4
+*.mkv
+*.avi
+
+# Bulk predictions stay local; portable baseline copies live in reference_results/
+/runs/**/*.jsonl
+/runs/**/predictions.json
+/runs/**/progress.json
+
+# Local credentials; keep example configuration templates
+.env
+.env.*
+!.env.example
+!.env.template
+/.aws/
+*.pem
+*.key
+
+# Intentionally keep source, docs, configs, manifests, metrics/decision JSON,
+# and reference_results/ (including its compact .jsonl.gz prediction files).
+# Do not add blanket *.json, *.jsonl.gz, /runs/, or /reference_results/ rules.

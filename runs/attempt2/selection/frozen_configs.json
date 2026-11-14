@@ -1,0 +1,631 @@
+{
+  "attempt": 2,
+  "candidate": "attempt2_conditional_reference",
+  "columns": [
+    "base_log",
+    "whole_query",
+    "conjunction",
+    "surplus",
+    "whole_local_contrast",
+    "unconditional_local_excess",
+    "conditional_local_excess",
+    "shared_slope_control"
+  ],
+  "configs": [
+    {
+      "name": "demul",
+      "coefficients": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "select_R1@0.5": 43.64794902429311,
+      "select_R1@0.7": 27.279968140183193
+    },
+    {
+      "name": "whole_query_control",
+      "coefficients": [
+        1,
+        0.25,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "select_R1@0.5": 43.76742333731581,
+      "select_R1@0.7": 27.24014336917563
+    },
+    {
+      "name": "joint_support_control",
+      "coefficients": [
+        1,
+        0.25,
+        0.0625,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "select_R1@0.5": 43.78733572281959,
+      "select_R1@0.7": 27.260055754679414
+    },
+    {
+      "name": "attempt1_association_reference",
+      "coefficients": [
+        1,
+        0.25,
+        0,
+        0.0625,
+        0,
+        0,
+        0,
+        0
+      ],
+      "select_R1@0.5": 43.76742333731581,
+      "select_R1@0.7": 27.260055754679414
+    },
+    {
+      "name": "whole_local_contrast_control",
+      "coefficients": [
+        1,
+        0.25,
+        0.0625,
+        0,
+        0.03125,
+        0,
+        0,
+        0
+      ],
+      "select_R1@0.5": 43.78733572281959,
+      "select_R1@0.7": 27.279968140183193
+    },
+    {
+      "name": "unconditional_local_control",
+      "coefficients": [
+        1,
+        0.25,
+        0.0625,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "select_R1@0.5": 43.78733572281959,
+      "select_R1@0.7": 27.260055754679414
+    },
+    {
+      "name": "shared_slope_control",
+      "coefficients": [
+        1,
+        0.25,
+        0.0625,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "select_R1@0.5": 43.78733572281959,
+      "select_R1@0.7": 27.260055754679414
+    },
+    {
+      "name": "attempt2_conditional_reference",
+      "coefficients": [
+        1,
+        0.25,
+        0.0625,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "select_R1@0.5": 43.78733572281959,
+      "select_R1@0.7": 27.260055754679414
+    }
+  ],
+  "strongest_control": "whole_local_contrast_control",
+  "grid": {
+    "whole_local_contrast_control": [
+      {
+        "name": "whole_local_contrast_control",
+        "coefficients": [
+          1,
+          0.25,
+          0.0625,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "select_R1@0.5": 43.78733572281959,
+        "select_R1@0.7": 27.260055754679414
+      },
+      {
+        "name": "whole_local_contrast_control",
+        "coefficients": [
+          1,
+          0.25,
+          0.0625,
+          0,
+          0.03125,
+          0,
+          0,
+          0
+        ],
+        "select_R1@0.5": 43.78733572281959,
+        "select_R1@0.7": 27.279968140183193
+      },
+      {
+        "name": "whole_local_contrast_control",
+        "coefficients": [
+          1,
+          0.25,
+          0.0625,
+          0,
+          0.0625,
+          0,
+          0,
+          0
+        ],
+        "select_R1@0.5": 43.727598566308245,
+        "select_R1@0.7": 27.279968140183193
+      },
+      {
+        "name": "whole_local_contrast_control",
+        "coefficients": [
+          1,
+          0.25,
+          0.0625,
+          0,
+          0.125,
+          0,
+          0,
+          0
+        ],
+        "select_R1@0.5": 43.68777379530068,
+        "select_R1@0.7": 27.299880525686977
+      },
+      {
+        "name": "whole_local_contrast_control",
+        "coefficients": [
+          1,
+          0.25,
+          0.0625,
+          0,
+          0.25,
+          0,
+          0,
+          0
+        ],
+        "select_R1@0.5": 43.66786140979689,
+        "select_R1@0.7": 27.339705296694543
+      },
+      {
+        "name": "whole_local_contrast_control",
+        "coefficients": [
+          1,
+          0.25,
+          0.0625,
+          0,
+          0.5,
+          0,
+          0,
+          0
+        ],
+        "select_R1@0.5": 43.70768618080446,
+        "select_R1@0.7": 27.279968140183193
+      },
+      {
+        "name": "whole_local_contrast_control",
+        "coefficients": [
+          1,
+          0.25,
+          0.0625,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "select_R1@0.5": 43.44882516925528,
+        "select_R1@0.7": 27.260055754679414
+      },
+      {
+        "name": "whole_local_contrast_control",
+        "coefficients": [
+          1,
+          0.25,
+          0.0625,
+          0,
+          2,
+          0,
+          0,
+          0
+        ],
+        "select_R1@0.5": 42.592592592592595,
+        "select_R1@0.7": 26.722421346077258
+      }
+    ],
+    "unconditional_local_control": [
+      {
+        "name": "unconditional_local_control",
+        "coefficients": [
+          1,
+          0.25,
+          0.0625,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "select_R1@0.5": 43.78733572281959,
+        "select_R1@0.7": 27.260055754679414
+      },
+      {
+        "name": "unconditional_local_control",
+        "coefficients": [
+          1,
+          0.25,
+          0.0625,
+          0,
+          0,
+          0.03125,
+          0,
+          0
+        ],
+        "select_R1@0.5": 43.76742333731581,
+        "select_R1@0.7": 27.260055754679414
+      },
+      {
+        "name": "unconditional_local_control",
+        "coefficients": [
+          1,
+          0.25,
+          0.0625,
+          0,
+          0,
+          0.0625,
+          0,
+          0
+        ],
+        "select_R1@0.5": 43.76742333731581,
+        "select_R1@0.7": 27.260055754679414
+      },
+      {
+        "name": "unconditional_local_control",
+        "coefficients": [
+          1,
+          0.25,
+          0.0625,
+          0,
+          0,
+          0.125,
+          0,
+          0
+        ],
+        "select_R1@0.5": 43.727598566308245,
+        "select_R1@0.7": 27.260055754679414
+      },
+      {
+        "name": "unconditional_local_control",
+        "coefficients": [
+          1,
+          0.25,
+          0.0625,
+          0,
+          0,
+          0.25,
+          0,
+          0
+        ],
+        "select_R1@0.5": 43.628036638789325,
+        "select_R1@0.7": 27.180406212664277
+      },
+      {
+        "name": "unconditional_local_control",
+        "coefficients": [
+          1,
+          0.25,
+          0.0625,
+          0,
+          0,
+          0.5,
+          0,
+          0
+        ],
+        "select_R1@0.5": 43.64794902429311,
+        "select_R1@0.7": 27.20031859816806
+      },
+      {
+        "name": "unconditional_local_control",
+        "coefficients": [
+          1,
+          0.25,
+          0.0625,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "select_R1@0.5": 43.42891278375149,
+        "select_R1@0.7": 27.20031859816806
+      },
+      {
+        "name": "unconditional_local_control",
+        "coefficients": [
+          1,
+          0.25,
+          0.0625,
+          0,
+          0,
+          2,
+          0,
+          0
+        ],
+        "select_R1@0.5": 43.269613699721226,
+        "select_R1@0.7": 27.021107128634007
+      }
+    ],
+    "shared_slope_control": [
+      {
+        "name": "shared_slope_control",
+        "coefficients": [
+          1,
+          0.25,
+          0.0625,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "select_R1@0.5": 43.78733572281959,
+        "select_R1@0.7": 27.260055754679414
+      },
+      {
+        "name": "shared_slope_control",
+        "coefficients": [
+          1,
+          0.25,
+          0.0625,
+          0,
+          0,
+          0,
+          0,
+          0.03125
+        ],
+        "select_R1@0.5": 43.78733572281959,
+        "select_R1@0.7": 27.260055754679414
+      },
+      {
+        "name": "shared_slope_control",
+        "coefficients": [
+          1,
+          0.25,
+          0.0625,
+          0,
+          0,
+          0,
+          0,
+          0.0625
+        ],
+        "select_R1@0.5": 43.76742333731581,
+        "select_R1@0.7": 27.260055754679414
+      },
+      {
+        "name": "shared_slope_control",
+        "coefficients": [
+          1,
+          0.25,
+          0.0625,
+          0,
+          0,
+          0,
+          0,
+          0.125
+        ],
+        "select_R1@0.5": 43.74751095181203,
+        "select_R1@0.7": 27.220230983671843
+      },
+      {
+        "name": "shared_slope_control",
+        "coefficients": [
+          1,
+          0.25,
+          0.0625,
+          0,
+          0,
+          0,
+          0,
+          0.25
+        ],
+        "select_R1@0.5": 43.64794902429311,
+        "select_R1@0.7": 27.160493827160494
+      },
+      {
+        "name": "shared_slope_control",
+        "coefficients": [
+          1,
+          0.25,
+          0.0625,
+          0,
+          0,
+          0,
+          0,
+          0.5
+        ],
+        "select_R1@0.5": 43.58821186778176,
+        "select_R1@0.7": 27.08084428514536
+      },
+      {
+        "name": "shared_slope_control",
+        "coefficients": [
+          1,
+          0.25,
+          0.0625,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "select_R1@0.5": 43.54838709677419,
+        "select_R1@0.7": 27.021107128634007
+      },
+      {
+        "name": "shared_slope_control",
+        "coefficients": [
+          1,
+          0.25,
+          0.0625,
+          0,
+          0,
+          0,
+          0,
+          2
+        ],
+        "select_R1@0.5": 43.48864994026284,
+        "select_R1@0.7": 27.060931899641577
+      }
+    ],
+    "attempt2_conditional_reference": [
+      {
+        "name": "attempt2_conditional_reference",
+        "coefficients": [
+          1,
+          0.25,
+          0.0625,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "select_R1@0.5": 43.78733572281959,
+        "select_R1@0.7": 27.260055754679414
+      },
+      {
+        "name": "attempt2_conditional_reference",
+        "coefficients": [
+          1,
+          0.25,
+          0.0625,
+          0,
+          0,
+          0,
+          0.03125,
+          0
+        ],
+        "select_R1@0.5": 43.78733572281959,
+        "select_R1@0.7": 27.260055754679414
+      },
+      {
+        "name": "attempt2_conditional_reference",
+        "coefficients": [
+          1,
+          0.25,
+          0.0625,
+          0,
+          0,
+          0,
+          0.0625,
+          0
+        ],
+        "select_R1@0.5": 43.76742333731581,
+        "select_R1@0.7": 27.260055754679414
+      },
+      {
+        "name": "attempt2_conditional_reference",
+        "coefficients": [
+          1,
+          0.25,
+          0.0625,
+          0,
+          0,
+          0,
+          0.125,
+          0
+        ],
+        "select_R1@0.5": 43.70768618080446,
+        "select_R1@0.7": 27.180406212664277
+      },
+      {
+        "name": "attempt2_conditional_reference",
+        "coefficients": [
+          1,
+          0.25,
+          0.0625,
+          0,
+          0,
+          0,
+          0.25,
+          0
+        ],
+        "select_R1@0.5": 43.58821186778176,
+        "select_R1@0.7": 27.140581441656707
+      },
+      {
+        "name": "attempt2_conditional_reference",
+        "coefficients": [
+          1,
+          0.25,
+          0.0625,
+          0,
+          0,
+          0,
+          0.5,
+          0
+        ],
+        "select_R1@0.5": 43.54838709677419,
+        "select_R1@0.7": 26.981282357626448
+      },
+      {
+        "name": "attempt2_conditional_reference",
+        "coefficients": [
+          1,
+          0.25,
+          0.0625,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        "select_R1@0.5": 43.54838709677419,
+        "select_R1@0.7": 27.08084428514536
+      },
+      {
+        "name": "attempt2_conditional_reference",
+        "coefficients": [
+          1,
+          0.25,
+          0.0625,
+          0,
+          0,
+          0,
+          2,
+          0
+        ],
+        "select_R1@0.5": 43.40900039824771,
+        "select_R1@0.7": 27.041019514137794
+      }
+    ]
+  },
+  "selection_queries": 5022,
+  "eligible_queries": 1664,
+  "selection": "dev_select only, R1@.5 then R1@.7 then smaller weight; no finalval tuning",
+  "seconds": 4.13852071762085
+}

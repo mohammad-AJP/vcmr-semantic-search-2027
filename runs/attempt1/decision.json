@@ -1,0 +1,16 @@
+{
+  "attempt": 1,
+  "decision": "failed_prespecified_advantage_gate",
+  "evidence": {
+    "n_confirm_queries": 4991,
+    "R1@0.5": 41.474654377880185,
+    "strongest_control_R1@0.5": 41.474654377880185,
+    "gain_pp": 0.0,
+    "paired_ci95_pp": [
+      -0.08012820512820513,
+      0.08008048096153823
+    ]
+  },
+  "interpretation": "No demonstrated benefit from the proposed association reference beyond raw joint support. Not proof of impossibility. Stop improving this version.",
+  "next": "Diagnose where signal is lost; revise at most twice. Final validation remains unused for method selection."
+}

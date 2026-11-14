@@ -1,0 +1,61 @@
+{
+  "completed_substantive_attempts": 3,
+  "no_fourth_attempt": true,
+  "decisions": [
+    {
+      "attempt": 1,
+      "passed_gate": false,
+      "comparison": {
+        "metric": "R1@0.5",
+        "delta_b_minus_a_pp": 0.0,
+        "ci95_pp": [
+          -0.08012820512820513,
+          0.08008048096153823
+        ],
+        "probability_delta_nonpositive": 0.6125,
+        "n_queries": 4991,
+        "n_video_clusters": 1002,
+        "iterations": 2000,
+        "seed": 2027,
+        "procedure": "paired percentile bootstrap, video-cluster sampling, query-weighted recall"
+      }
+    },
+    {
+      "attempt": 2,
+      "passed_gate": false,
+      "comparison": {
+        "metric": "R1@0.5",
+        "delta_b_minus_a_pp": 0.02003606491685033,
+        "ci95_pp": [
+          0.0,
+          0.060156406657309
+        ],
+        "probability_delta_nonpositive": 0.3775,
+        "n_queries": 4991,
+        "n_video_clusters": 1002,
+        "iterations": 2000,
+        "seed": 2027,
+        "procedure": "paired percentile bootstrap, video-cluster sampling, query-weighted recall"
+      }
+    },
+    {
+      "attempt": 3,
+      "passed_gate": false,
+      "comparison": {
+        "metric": "R1@0.5",
+        "delta_b_minus_a_pp": 0.0,
+        "ci95_pp": [
+          0.0,
+          0.0
+        ],
+        "probability_delta_nonpositive": 1.0,
+        "n_queries": 4991,
+        "n_video_clusters": 1002,
+        "iterations": 2000,
+        "seed": 2027,
+        "procedure": "paired percentile bootstrap, video-cluster sampling, query-weighted recall"
+      }
+    }
+  ],
+  "final_report": "/home/mohammad/Documents/vcmr-semantic-search-2027/docs/final_results.md"
+}

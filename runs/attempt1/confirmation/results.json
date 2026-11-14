@@ -1,0 +1,254 @@
+{
+  "attempt": 1,
+  "queries": 4991,
+  "eligible_queries": 1623,
+  "frozen_config_source": "/home/mohammad/Documents/vcmr-semantic-search-2027/runs/attempt1/selection/frozen_configs.json",
+  "results": {
+    "demul": {
+      "coefficients": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "metrics": {
+        "full": {
+          "n_queries": 4991,
+          "R1@0.5": 41.33440192346223,
+          "R5@0.5": 59.907834101382484,
+          "R10@0.5": 65.69825686235224,
+          "R100@0.5": 76.27729913844921,
+          "R1@0.7": 25.145261470647164,
+          "R5@0.7": 46.96453616509718,
+          "R10@0.7": 54.47806050891605,
+          "R100@0.7": 66.17912242035663
+        },
+        "visual_only": {
+          "n_queries": 3713,
+          "R1@0.5": 37.62456234850525,
+          "R5@0.5": 55.91166172906006,
+          "R10@0.5": 61.86372205763534,
+          "R100@0.5": 73.76784271478589,
+          "R1@0.7": 22.084567734985185,
+          "R5@0.7": 42.5531914893617,
+          "R10@0.7": 49.798007002423915,
+          "R100@0.7": 62.18691085375707
+        },
+        "diagnostics": {
+          "n_input_gt_records": 4991,
+          "n_unique_gt_queries": 4991,
+          "n_missing_prediction_queries": 0,
+          "n_extra_prediction_queries": 0,
+          "ranking": "descending score, stable ties; duplicate moments consume rank slots",
+          "units": "percent",
+          "tiou_thresholds": [
+            0.5,
+            0.7
+          ],
+          "ranks": [
+            1,
+            5,
+            10,
+            100
+          ]
+        }
+      }
+    },
+    "whole_query_control": {
+      "coefficients": [
+        1,
+        0.25,
+        0,
+        0
+      ],
+      "metrics": {
+        "full": {
+          "n_queries": 4991,
+          "R1@0.5": 41.41454618312964,
+          "R5@0.5": 60.02805049088359,
+          "R10@0.5": 65.75836505710278,
+          "R100@0.5": 76.27729913844921,
+          "R1@0.7": 25.445802444399916,
+          "R5@0.7": 47.004608294930875,
+          "R10@0.7": 54.55820476858345,
+          "R100@0.7": 66.19915848527349
+        },
+        "visual_only": {
+          "n_queries": 3713,
+          "R1@0.5": 37.570697549151625,
+          "R5@0.5": 56.04632372744411,
+          "R10@0.5": 61.91758685698896,
+          "R100@0.5": 73.76784271478589,
+          "R1@0.7": 22.273094532722865,
+          "R5@0.7": 42.52625908968489,
+          "R10@0.7": 49.87880420145435,
+          "R100@0.7": 62.21384325343388
+        },
+        "diagnostics": {
+          "n_input_gt_records": 4991,
+          "n_unique_gt_queries": 4991,
+          "n_missing_prediction_queries": 0,
+          "n_extra_prediction_queries": 0,
+          "ranking": "descending score, stable ties; duplicate moments consume rank slots",
+          "units": "percent",
+          "tiou_thresholds": [
+            0.5,
+            0.7
+          ],
+          "ranks": [
+            1,
+            5,
+            10,
+            100
+          ]
+        }
+      }
+    },
+    "joint_support_control": {
+      "coefficients": [
+        1,
+        0.25,
+        0.0625,
+        0
+      ],
+      "metrics": {
+        "full": {
+          "n_queries": 4991,
+          "R1@0.5": 41.474654377880185,
+          "R5@0.5": 60.04808655580044,
+          "R10@0.5": 65.77840112201963,
+          "R100@0.5": 76.27729913844921,
+          "R1@0.7": 25.445802444399916,
+          "R5@0.7": 47.04468042476458,
+          "R10@0.7": 54.55820476858345,
+          "R100@0.7": 66.17912242035663
+        },
+        "visual_only": {
+          "n_queries": 3713,
+          "R1@0.5": 37.67842714785887,
+          "R5@0.5": 56.07325612712093,
+          "R10@0.5": 61.944519256665764,
+          "R100@0.5": 73.76784271478589,
+          "R1@0.7": 22.273094532722865,
+          "R5@0.7": 42.58012388903851,
+          "R10@0.7": 49.87880420145435,
+          "R100@0.7": 62.18691085375707
+        },
+        "diagnostics": {
+          "n_input_gt_records": 4991,
+          "n_unique_gt_queries": 4991,
+          "n_missing_prediction_queries": 0,
+          "n_extra_prediction_queries": 0,
+          "ranking": "descending score, stable ties; duplicate moments consume rank slots",
+          "units": "percent",
+          "tiou_thresholds": [
+            0.5,
+            0.7
+          ],
+          "ranks": [
+            1,
+            5,
+            10,
+            100
+          ]
+        }
+      }
+    },
+    "attempt1_association_reference": {
+      "coefficients": [
+        1,
+        0.25,
+        0,
+        0.0625
+      ],
+      "metrics": {
+        "full": {
+          "n_queries": 4991,
+          "R1@0.5": 41.474654377880185,
+          "R5@0.5": 60.04808655580044,
+          "R10@0.5": 65.77840112201963,
+          "R100@0.5": 76.27729913844921,
+          "R1@0.7": 25.385694249649372,
+          "R5@0.7": 47.04468042476458,
+          "R10@0.7": 54.5782408335003,
+          "R100@0.7": 66.17912242035663
+        },
+        "visual_only": {
+          "n_queries": 3713,
+          "R1@0.5": 37.65149474818206,
+          "R5@0.5": 56.04632372744411,
+          "R10@0.5": 61.944519256665764,
+          "R100@0.5": 73.76784271478589,
+          "R1@0.7": 22.219229733369243,
+          "R5@0.7": 42.58012388903851,
+          "R10@0.7": 49.90573660113116,
+          "R100@0.7": 62.18691085375707
+        },
+        "diagnostics": {
+          "n_input_gt_records": 4991,
+          "n_unique_gt_queries": 4991,
+          "n_missing_prediction_queries": 0,
+          "n_extra_prediction_queries": 0,
+          "ranking": "descending score, stable ties; duplicate moments consume rank slots",
+          "units": "percent",
+          "tiou_thresholds": [
+            0.5,
+            0.7
+          ],
+          "ranks": [
+            1,
+            5,
+            10,
+            100
+          ]
+        }
+      }
+    }
+  },
+  "candidate_minus_controls_R1@0.5": {
+    "demul": {
+      "metric": "R1@0.5",
+      "delta_b_minus_a_pp": 0.1402524544179523,
+      "ci95_pp": [
+        -0.08022503129122627,
+        0.3602882305844676
+      ],
+      "probability_delta_nonpositive": 0.113,
+      "n_queries": 4991,
+      "n_video_clusters": 1002,
+      "iterations": 2000,
+      "seed": 2027,
+      "procedure": "paired percentile bootstrap, video-cluster sampling, query-weighted recall"
+    },
+    "whole_query_control": {
+      "metric": "R1@0.5",
+      "delta_b_minus_a_pp": 0.06010819475055099,
+      "ci95_pp": [
+        0.0,
+        0.14019697688944008
+      ],
+      "probability_delta_nonpositive": 0.052,
+      "n_queries": 4991,
+      "n_video_clusters": 1002,
+      "iterations": 2000,
+      "seed": 2027,
+      "procedure": "paired percentile bootstrap, video-cluster sampling, query-weighted recall"
+    },
+    "joint_support_control": {
+      "metric": "R1@0.5",
+      "delta_b_minus_a_pp": 0.0,
+      "ci95_pp": [
+        -0.08012820512820513,
+        0.08008048096153823
+      ],
+      "probability_delta_nonpositive": 0.6125,
+      "n_queries": 4991,
+      "n_video_clusters": 1002,
+      "iterations": 2000,
+      "seed": 2027,
+      "procedure": "paired percentile bootstrap, video-cluster sampling, query-weighted recall"
+    }
+  },
+  "strongest_control_fixed_from_selection": "joint_support_control",
+  "seconds": 44.413615226745605
+}

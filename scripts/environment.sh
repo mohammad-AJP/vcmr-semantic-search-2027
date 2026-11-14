@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+export VCMR_ROOT=/home/mohammad/Documents/vcmr-semantic-search-2027
+export CONDARC="$VCMR_ROOT/configs/condarc.yaml"
+export CONDA_PKGS_DIRS="$VCMR_ROOT/.cache/conda"
+export CONDA_ENVS_PATH="$VCMR_ROOT/envs"
+export HF_HOME="$VCMR_ROOT/.cache/huggingface"
+export TORCH_HOME="$VCMR_ROOT/.cache/torch"
+export PIP_CACHE_DIR="$VCMR_ROOT/.cache/pip"
+export XDG_CACHE_HOME="$VCMR_ROOT/.cache"
+export TMPDIR="$VCMR_ROOT/tmp"
+export PYTHONPYCACHEPREFIX="$VCMR_ROOT/.cache/pycache"
+export PYTHONPATH="$VCMR_ROOT/src"
+export OMP_NUM_THREADS=6
+export MKL_NUM_THREADS=6
+export TOKENIZERS_PARALLELISM=false
+export VCMR_PYTHON="$VCMR_ROOT/envs/vcmr/bin/python"

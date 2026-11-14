@@ -1,0 +1,312 @@
+{
+  "clip_query_identity": {
+    "mapped_official_query_ids": 98070,
+    "mapping_file": "manifests/tvr_clip_query_ids.json",
+    "method": "Match video ID and normalized caption to original prepared metadata; deterministic feature key among identical captions.",
+    "query_rows_with_multiple_identical_text_features": 755
+  },
+  "dataset": "TVR",
+  "development_target_videos_each": 1000,
+  "features": {
+    "normalization": "Source embeddings are not unit normalized; explicitly L2-normalize for cosine.",
+    "query": "data/tvr/clip_query.h5",
+    "schema": "video_id -> [T,512]; <video>#enc#ordinal -> [512]",
+    "video": "data/tvr/clip_video.h5"
+  },
+  "leakage_controls": {
+    "backbone_caveat": "Fixed DeMUL pretrained baseline was trained on the original full TVR train split, including development videos. Development estimates are optimistic for this fixed backbone; new scoring parameters are selected only on development splits. Official validation remains evaluation-only.",
+    "episode_disjoint_new_scoring_development": true,
+    "local_test_alias": "Original local test caption file equals validation; never treat it as an independent test split.",
+    "no_official_val_queries_for_fitting_or_development": true,
+    "official_split_note": "Official train and validation are video-disjoint but share source episodes. The new episode grouping applies only between train_fit, dev_select, and dev_confirm; the official benchmark split is preserved.",
+    "official_train_val_episode_overlap_count": 842,
+    "prediction_policy": "No ground-truth video or moment insertion. Corpus candidates depend on features/query only."
+  },
+  "modality": {
+    "available": "visual CLIP features",
+    "comparison_warning": "Report all official validation queries and visual-only subset separately; full multimodal SOTA comparisons require matching subtitle inputs and protocol.",
+    "query_visual_only_type": "v"
+  },
+  "official_train_sha256": "ca6393a8afbedb041029e6f03a00d16cb7dcca0d4bdab2fa50358e192087d15a",
+  "official_val": {
+    "queries": 10895,
+    "query_types": {
+      "t": 964,
+      "v": 8097,
+      "vt": 1834
+    },
+    "sha256": "033d358632c5333cc5492ff308d4dd2c85f714f352bc92cd35fbae5797c5fbec",
+    "unchanged_source_annotations": true,
+    "videos": 2179
+  },
+  "seed": 2027,
+  "split_strategy": "source episode groups, deterministic shuffled greedy sampling approximately stratified by TV show",
+  "splits": {
+    "dev_confirm": {
+      "episodes": 53,
+      "queries": 5010,
+      "query_types": {
+        "t": 423,
+        "v": 3725,
+        "vt": 862
+      },
+      "sha256": "66b7cd18f868a30cc921140767a0667345429dbc72c3a2755705d84e9fd60535",
+      "show_video_counts": {
+        "castle": 215,
+        "friends": 250,
+        "grey": 63,
+        "house": 210,
+        "met": 66,
+        "unnamed_show": 198
+      },
+      "videos": 1002
+    },
+    "dev_select": {
+      "episodes": 51,
+      "queries": 5045,
+      "query_types": {
+        "t": 478,
+        "v": 3755,
+        "vt": 812
+      },
+      "sha256": "1ae9b0ea62e5eebb0036aad60da5242e562908edf319b8fa56e617640d9177ec",
+      "show_video_counts": {
+        "castle": 222,
+        "friends": 239,
+        "grey": 74,
+        "house": 215,
+        "met": 70,
+        "unnamed_show": 189
+      },
+      "videos": 1009
+    },
+    "train_fit": {
+      "episodes": 820,
+      "queries": 77120,
+      "query_types": {
+        "t": 7055,
+        "v": 57265,
+        "vt": 12800
+      },
+      "sha256": "bb086c7096277596fd0da3d3e92766013222106988033ee93a031879f1690d50",
+      "show_video_counts": {
+        "castle": 3307,
+        "friends": 3758,
+        "grey": 1016,
+        "house": 3280,
+        "met": 1086,
+        "unnamed_show": 2977
+      },
+      "videos": 15424
+    }
+  },
+  "timing": {
+    "clip_experiment_fallback": "Uniform feature cells over [0, annotated duration] unless original feature timing is independently verified.",
+    "clip_feature_timestamps_present": false,
+    "demul_policy": "Use original supplied backbone feature grid/decoder; do not substitute CLIP-derived timestamp assumptions.",
+    "nominal_TVR_stride_seconds": 1.5,
+    "validation_feature_count_minus_ceil_duration_over_1p5": {
+      "-1": 844,
+      "-14": 1,
+      "-18": 1,
+      "-19": 3,
+      "-2": 11,
+      "-20": 3,
+      "-21": 3,
+      "-22": 1,
+      "-24": 1,
+      "-28": 1,
+      "-3": 5,
+      "-4": 1,
+      "0": 1304
+    },
+    "validation_outliers_abs_difference_ge_2": [
+      {
+        "difference_from_ceil_dur_over_1p5": -20,
+        "duration": 149.07999999999998,
+        "n_features": 80,
+        "vid_name": "met_s03e13_seg02_clip_17"
+      },
+      {
+        "difference_from_ceil_dur_over_1p5": -22,
+        "duration": 80.5,
+        "n_features": 32,
+        "vid_name": "met_s03e19_seg02_clip_18"
+      },
+      {
+        "difference_from_ceil_dur_over_1p5": -2,
+        "duration": 57.02,
+        "n_features": 37,
+        "vid_name": "met_s02e19_seg01_clip_01"
+      },
+      {
+        "difference_from_ceil_dur_over_1p5": -14,
+        "duration": 95.02000000000001,
+        "n_features": 50,
+        "vid_name": "s01e10_seg01_clip_02"
+      },
+      {
+        "difference_from_ceil_dur_over_1p5": -21,
+        "duration": 103.17,
+        "n_features": 48,
+        "vid_name": "met_s06e15_seg02_clip_18"
+      },
+      {
+        "difference_from_ceil_dur_over_1p5": -2,
+        "duration": 66.02,
+        "n_features": 43,
+        "vid_name": "s02e12_seg01_clip_01"
+      },
+      {
+        "difference_from_ceil_dur_over_1p5": -19,
+        "duration": 106.49000000000001,
+        "n_features": 52,
+        "vid_name": "met_s02e09_seg02_clip_18"
+      },
+      {
+        "difference_from_ceil_dur_over_1p5": -20,
+        "duration": 92.07,
+        "n_features": 42,
+        "vid_name": "met_s04e02_seg02_clip_17"
+      },
+      {
+        "difference_from_ceil_dur_over_1p5": -2,
+        "duration": 51.03,
+        "n_features": 33,
+        "vid_name": "s07e04_seg01_clip_01"
+      },
+      {
+        "difference_from_ceil_dur_over_1p5": -2,
+        "duration": 73.09,
+        "n_features": 47,
+        "vid_name": "s10e01_seg01_clip_01"
+      },
+      {
+        "difference_from_ceil_dur_over_1p5": -2,
+        "duration": 95.03,
+        "n_features": 62,
+        "vid_name": "s05e19_seg01_clip_01"
+      },
+      {
+        "difference_from_ceil_dur_over_1p5": -2,
+        "duration": 53.28,
+        "n_features": 34,
+        "vid_name": "s04e15_seg01_clip_02"
+      },
+      {
+        "difference_from_ceil_dur_over_1p5": -4,
+        "duration": 98.03999999999999,
+        "n_features": 62,
+        "vid_name": "s05e08_seg01_clip_01"
+      },
+      {
+        "difference_from_ceil_dur_over_1p5": -3,
+        "duration": 90.02,
+        "n_features": 58,
+        "vid_name": "s07e11_seg01_clip_00"
+      },
+      {
+        "difference_from_ceil_dur_over_1p5": -19,
+        "duration": 106.5,
+        "n_features": 52,
+        "vid_name": "s10e03_seg02_clip_17"
+      },
+      {
+        "difference_from_ceil_dur_over_1p5": -2,
+        "duration": 85.38,
+        "n_features": 55,
+        "vid_name": "s08e05_seg01_clip_01"
+      },
+      {
+        "difference_from_ceil_dur_over_1p5": -2,
+        "duration": 51.84,
+        "n_features": 33,
+        "vid_name": "s10e05_seg01_clip_01"
+      },
+      {
+        "difference_from_ceil_dur_over_1p5": -21,
+        "duration": 75.02,
+        "n_features": 30,
+        "vid_name": "met_s02e05_seg02_clip_19"
+      },
+      {
+        "difference_from_ceil_dur_over_1p5": -20,
+        "duration": 91.53999999999999,
+        "n_features": 42,
+        "vid_name": "met_s03e08_seg02_clip_18"
+      },
+      {
+        "difference_from_ceil_dur_over_1p5": -2,
+        "duration": 94.02000000000001,
+        "n_features": 61,
+        "vid_name": "s07e17_seg01_clip_00"
+      },
+      {
+        "difference_from_ceil_dur_over_1p5": -24,
+        "duration": 146.34,
+        "n_features": 74,
+        "vid_name": "met_s06e01_seg02_clip_16"
+      },
+      {
+        "difference_from_ceil_dur_over_1p5": -3,
+        "duration": 43.02,
+        "n_features": 26,
+        "vid_name": "s07e16_seg01_clip_01"
+      },
+      {
+        "difference_from_ceil_dur_over_1p5": -2,
+        "duration": 48.03,
+        "n_features": 31,
+        "vid_name": "s02e14_seg01_clip_01"
+      },
+      {
+        "difference_from_ceil_dur_over_1p5": -18,
+        "duration": 104.02000000000001,
+        "n_features": 52,
+        "vid_name": "met_s02e21_seg02_clip_18"
+      },
+      {
+        "difference_from_ceil_dur_over_1p5": -28,
+        "duration": 113.34,
+        "n_features": 48,
+        "vid_name": "met_s06e13_seg02_clip_18"
+      },
+      {
+        "difference_from_ceil_dur_over_1p5": -3,
+        "duration": 96.02000000000001,
+        "n_features": 62,
+        "vid_name": "s06e13_seg01_clip_00"
+      },
+      {
+        "difference_from_ceil_dur_over_1p5": -3,
+        "duration": 60.01,
+        "n_features": 38,
+        "vid_name": "s08e14_seg01_clip_02"
+      },
+      {
+        "difference_from_ceil_dur_over_1p5": -19,
+        "duration": 114.1,
+        "n_features": 58,
+        "vid_name": "met_s02e07_seg02_clip_18"
+      },
+      {
+        "difference_from_ceil_dur_over_1p5": -2,
+        "duration": 58.04,
+        "n_features": 37,
+        "vid_name": "s06e02_seg01_clip_01"
+      },
+      {
+        "difference_from_ceil_dur_over_1p5": -3,
+        "duration": 69.2,
+        "n_features": 44,
+        "vid_name": "s04e08_seg01_clip_01"
+      },
+      {
+        "difference_from_ceil_dur_over_1p5": -21,
+        "duration": 63.48,
+        "n_features": 22,
+        "vid_name": "met_s02e03_seg02_clip_19"
+      }
+    ]
+  }
+}

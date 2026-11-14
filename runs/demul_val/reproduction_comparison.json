@@ -1,0 +1,75 @@
+{
+  "reference_source": "https://github.com/iLearn-Lab/TCSVT26-DeMUL/blob/main/checkpoints/demul_tvr/metrics.json",
+  "author_reported": {
+    "VCMR": {
+      "0.5-r1": 21.37,
+      "0.5-r5": 34.11,
+      "0.5-r10": 39.31,
+      "0.5-r100": 47.43,
+      "0.7-r1": 11.92,
+      "0.7-r5": 25.27,
+      "0.7-r10": 31.34,
+      "0.7-r100": 39.79
+    },
+    "SVMR": {
+      "0.5-r1": 48.93,
+      "0.5-r5": 73.39,
+      "0.5-r10": 80.91,
+      "0.5-r100": 88.88,
+      "0.7-r1": 26.84,
+      "0.7-r5": 54.47,
+      "0.7-r10": 64.56,
+      "0.7-r100": 74.47
+    },
+    "VR": {
+      "r1": 29.01,
+      "r5": 52.82,
+      "r10": 63.07,
+      "r100": 63.07
+    },
+    "VCMR_by_type": {},
+    "SVMR_by_type": {},
+    "VR_by_type": {}
+  },
+  "reconstructed_full_600_before_nms": {
+    "VCMR": {
+      "0.5-r1": 21.13,
+      "0.5-r5": 33.7,
+      "0.5-r10": 39.19,
+      "0.5-r100": 55.25,
+      "0.7-r1": 11.78,
+      "0.7-r5": 24.89,
+      "0.7-r10": 31.18,
+      "0.7-r100": 47.21
+    },
+    "VR": {
+      "r1": 29.01,
+      "r5": 52.82,
+      "r10": 63.07,
+      "r100": 63.07
+    },
+    "VCMR_by_type": {},
+    "VR_by_type": {}
+  },
+  "reconstructed_upstream_100_before_nms_mutation": {
+    "VCMR": {
+      "0.5-r1": 21.13,
+      "0.5-r5": 33.7,
+      "0.5-r10": 39.19,
+      "0.5-r100": 47.57,
+      "0.7-r1": 11.78,
+      "0.7-r5": 24.89,
+      "0.7-r10": 31.17,
+      "0.7-r100": 39.82
+    },
+    "VR": {
+      "r1": 29.01,
+      "r5": 52.82,
+      "r10": 63.07,
+      "r100": 63.07
+    },
+    "VCMR_by_type": {},
+    "VR_by_type": {}
+  },
+  "interpretation": "Small R@1 mismatch remains; no exact numerical reproduction claim. Upstream evaluator truncates shared raw predictions before NMS, lowering high-K recall."
+}

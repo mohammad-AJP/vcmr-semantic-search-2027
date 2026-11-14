@@ -1,0 +1,102 @@
+{
+  "status": "illustrative design; not parser output from a trained model",
+  "query": "a man standing in black suit",
+  "target_interval": "I0",
+  "entities": [
+    {
+      "id": "x",
+      "type": "person",
+      "source": {
+        "text": "man",
+        "start": 2,
+        "end": 5
+      }
+    },
+    {
+      "id": "y",
+      "type": "garment",
+      "source": {
+        "text": "suit",
+        "start": 24,
+        "end": 28
+      }
+    }
+  ],
+  "intervals": [
+    {
+      "id": "I0",
+      "role": "target",
+      "seconds": null
+    }
+  ],
+  "predicates": [
+    {
+      "name": "man",
+      "args": [
+        "x"
+      ],
+      "source": {
+        "text": "man",
+        "start": 2,
+        "end": 5
+      }
+    },
+    {
+      "name": "suit",
+      "args": [
+        "y"
+      ],
+      "source": {
+        "text": "suit",
+        "start": 24,
+        "end": 28
+      }
+    },
+    {
+      "name": "black",
+      "args": [
+        "y"
+      ],
+      "source": {
+        "text": "black",
+        "start": 18,
+        "end": 23
+      }
+    },
+    {
+      "name": "wearing",
+      "args": [
+        "x",
+        "y",
+        "I0"
+      ],
+      "source": {
+        "text": "in black suit",
+        "start": 15,
+        "end": 28
+      }
+    },
+    {
+      "name": "standing",
+      "args": [
+        "x",
+        "I0"
+      ],
+      "aspect": "state",
+      "source": {
+        "text": "standing",
+        "start": 6,
+        "end": 14
+      }
+    }
+  ],
+  "binding_constraints": [
+    "x is shared by man, wearing, and standing",
+    "y is shared by suit, black, and wearing",
+    "wearing and standing must have compatible temporal support in I0"
+  ],
+  "additional_required_facts": [],
+  "visual_evidence_status": "not observed",
+  "parse_weight": null,
+  "weight_is_calibrated": false
+}
